@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Quarter - Real Estate HTML Template</title>
+    <title>Giftem Global - Properties and Investment Limited </title>
     <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
+    <meta name="description" content="Giftem Global - Properties and Investment Limited">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Place favicon.png in the root directory -->
@@ -41,7 +41,7 @@
                         <div class="ltn__top-bar-menu">
                             <ul>
                                 <li><a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"><i class="icon-mail"></i> info@webmail.com</a></li>
-                                <li><a href="locations.html"><i class="icon-placeholder"></i> 15/A, Nest Tower, NYC</a></li>
+                                <li><a href="#"><i class="icon-placeholder"></i> 15/A, Nest Tower, NYC</a></li>
                             </ul>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                     <div class="col">
                         <div class="site-logo-wrap">
                             <div class="site-logo">
-                                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                                <a href="/"><img src="img/logo.png" alt="Logo"></a>
                             </div>
                             <div class="get-support clearfix d-none">
                                 <div class="get-support-icon">
@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="get-support-info">
                                     <h6>Get Support</h6>
-                                    <h4><a href="tel:+123456789">123-456-789-10</a></h4>
+                                    <h4><a href="tel:+2348023510670">0802 351 0670</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -112,138 +112,25 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <li class="menu-icon"><a href="#">Home</a>
-                                            <ul class="sub-menu menu-pages-img-show">
-                                                <li>
-                                                    <a href="index.html">Home Style 01</a>
-                                                    <img src="img/home-demos/home-1.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-2.html">Home Style 02</a>
-                                                    <img src="img/home-demos/home-2.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-3.html">Home Style 03</a>
-                                                    <img src="img/home-demos/home-3.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-4.html">Home Style 04</a>
-                                                    <img src="img/home-demos/home-4.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-5.html">Home Style 05 <span class="menu-item-badge">video</span></a>
-                                                    <img src="img/home-demos/home-5.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-6.html">Home Style 06</a>
-                                                    <img src="img/home-demos/home-6.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-7.html">Home Style 07</a>
-                                                    <img src="img/home-demos/home-7.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-8.html">Home Style 08</a>
-                                                    <img src="img/home-demos/home-8.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-9.html">Home Style 09</a>
-                                                    <img src="img/home-demos/home-9.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-10.html">Home Style 10 <span class="menu-item-badge">Map</span></a>
-                                                    <img src="img/home-demos/home-10.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-11.html">Home Style 11</a>
-                                                    <img src="img/home-demos/home-11.jpg" alt="#">
-                                                </li>
-                                            </ul>
+                                        <li class=""><a href="#">Home</a>
+                                            
                                         </li>
-                                        <li class="menu-icon"><a href="about.html">About</a>
-                                            <ul>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="service.html">Services</a></li>
-                                                <li><a href="service-details.html">Service Details</a></li>
-                                                <li><a href="portfolio.html">Portfolio</a></li>
-                                                <li><a href="portfolio-2.html">Portfolio - 02</a></li>
-                                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="locations.html">Google Map Locations</a></li>
-                                            </ul>
+                                        <li class=""><a href="about.php">About</a>
+                                           
                                         </li>
-                                        <li class="menu-icon"><a href="shop.html">Property</a>
-                                            <ul>
-                                                <li><a href="shop.html">Property Grid</a></li>
-                                                <li><a href="shop-list.html">Property List</a></li>
-                                                <li><a href="shop-grid.html">Property No Sidebar</a></li>
-                                                <li><a href="shop-left-sidebar.html">Property Left sidebar</a></li>
-                                                <li><a href="shop-right-sidebar.html">Property right sidebar</a></li>
-                                                <li><a href="product-details.html">Property details </a></li>
-                                                <li><a href="#">Other Pages <span class="float-end">>></span></a>
-                                                    <ul>
-                                                        <li><a href="cart.html">Cart</a></li>
-                                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                                        <li><a href="checkout.html">Checkout</a></li>
-                                                        <li><a href="order-tracking.html">Order Tracking</a></li>
-                                                        <li><a href="account.html">My Account</a></li>
-                                                        <li><a href="login.html">Sign in</a></li>
-                                                        <li><a href="register.html">Register</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                        <li class=""><a href="services.php">Services</a>
+                                            
                                         </li>
-                                        <li class="menu-icon"><a href="blog.html">News</a>
-                                            <ul>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="blog-grid.html">News Grid</a></li>
-                                                <li><a href="blog-left-sidebar.html">News Left sidebar</a></li>
-                                                <li><a href="blog-right-sidebar.html">News Right sidebar</a></li>
-                                                <li><a href="blog-details.html">News details</a></li>
-                                            </ul>
+
+                                        <li class=""><a href="properties.php">Properties</a>
+                                           
                                         </li>
-                                        <li class="menu-icon"><a href="#">Pages</a>
-                                            <ul class="mega-menu">
-                                                <li><a href="#">Inner Pages</a>
-                                                    <ul>
-                                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                                        <li><a href="portfolio-2.html">Portfolio - 02</a></li>
-                                                        <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                                        <li><a href="team.html">Team</a></li>
-                                                        <li><a href="team-details.html">Team Details</a></li>
-                                                        <li><a href="faq.html">FAQ</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Inner Pages</a>
-                                                    <ul>
-                                                        <li><a href="history.html">History</a></li>
-                                                        <li><a href="add-listing.html">Add Listing</a></li>
-                                                        <li><a href="locations.html">Google Map Locations</a></li>
-                                                        <li><a href="404.html">404</a></li>
-                                                        <li><a href="contact.html">Contact</a></li>
-                                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Shop Pages</a>
-                                                    <ul>
-                                                        <li><a href="shop.html">Shop</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Shop Left sidebar</a></li>
-                                                        <li><a href="shop-right-sidebar.html">Shop right sidebar</a></li>
-                                                        <li><a href="shop-grid.html">Shop Grid</a></li>
-                                                        <li><a href="product-details.html">Shop details </a></li>
-                                                        <li><a href="cart.html">Cart</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="shop.html"><img src="img/banner/menu-banner-1.jpg" alt="#"></a>
-                                                </li>
-                                            </ul>
+                                        <li class=""><a href="https://giftemglobals.com/blog">Blog</a>
+                                            
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li class="special-link">
-                                            <a href="add-listing.html">Add Listing</a>
-                                        </li>
+                                       
+                                        <li class="special-link"><a href="contact.html">Contact</a></li>
+                                       
                                     </ul>
                                 </div>
                             </nav>
@@ -337,7 +224,7 @@
         <div class="ltn__utilize-menu-inner ltn__scrollbar">
             <div class="ltn__utilize-menu-head">
                 <div class="site-logo">
-                    <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                    <a href="/"><img src="img/logo.png" alt="Logo"></a>
                 </div>
                 <button class="ltn__utilize-close">×</button>
             </div>
@@ -349,119 +236,39 @@
             </div>
             <div class="ltn__utilize-menu">
                 <ul>
-                    <li><a href="#">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Home Style 01</a></li>
-                            <li><a href="index-2.html">Home Style 02</a></li>
-                            <li><a href="index-3.html">Home Style 03</a></li>
-                            <li><a href="index-4.html">Home Style 04</a></li>
-                            <li><a href="index-5.html">Home Style 05  <span class="menu-item-badge">video</span></a></li>
-                            <li><a href="index-6.html">Home Style 06</a></li>
-                            <li><a href="index-7.html">Home Style 07</a></li>
-                            <li><a href="index-8.html">Home Style 08</a></li>
-                            <li><a href="index-9.html">Home Style 09</a></li>
-                            <li><a href="index-10.html">Home Style 10 <span class="menu-item-badge">Map</span></a></li>
-                            <li><a href="index-11.html">Home Style 11</a></li>
-                        </ul>
+                    <li><a href="/">Home</a>
+                        
                     </li>
-                    <li><a href="#">About</a>
-                        <ul class="sub-menu">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="portfolio-2.html">Portfolio - 02</a></li>
-                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="team-details.html">Team Details</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="locations.html">Google Map Locations</a></li>
-                        </ul>
+                    <li><a href="about.php">About</a>
+                       
                     </li>
-                    <li><a href="#">Property</a>
-                        <ul class="sub-menu">
-                            <li><a href="shop.html">Property Grid</a></li>
-                            <li><a href="shop-list.html">Property List</a></li>
-                            <li><a href="shop-grid.html">Property No Sidebar</a></li>
-                            <li><a href="shop-left-sidebar.html">Property Left sidebar</a></li>
-                            <li><a href="shop-right-sidebar.html">Property right sidebar</a></li>
-                            <li><a href="product-details.html">Property details </a></li>
-                            <li><a href="cart.html">Cart</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="order-tracking.html">Order Tracking</a></li>
-                            <li><a href="account.html">My Account</a></li>
-                            <li><a href="login.html">Sign in</a></li>
-                            <li><a href="register.html">Register</a></li>
-                        </ul>
+                   
+                    <li><a href="services.php">Services</a>
+                       
+                       </li>
+                       
+                    <li><a href="properties.php">Properties</a>
+                        
+                     </li>
+                    <li><a href="https://giftemglobals.com/blog">Blog</a>
+                       
                     </li>
-                    <li><a href="#">News</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">News</a></li>
-                            <li><a href="blog-grid.html">News Grid</a></li>
-                            <li><a href="blog-left-sidebar.html">News Left sidebar</a></li>
-                            <li><a href="blog-right-sidebar.html">News Right sidebar</a></li>
-                            <li><a href="blog-details.html">News details</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="portfolio-2.html">Portfolio - 02</a></li>
-                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="team-details.html">Team Details</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="history.html">History</a></li>
-                            <li><a href="add-listing.html">Add Listing</a></li>
-                            <li><a href="locations.html">Google Map Locations</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
+                   
+                    <li><a href="contact-us.php">Contact</a></li>
                 </ul>
             </div>
-            <div class="ltn__utilize-buttons ltn__utilize-buttons-2">
-                <ul>
-                    <li>
-                        <a href="account.html" title="My Account">
-                            <span class="utilize-btn-icon">
-                                <i class="far fa-user"></i>
-                            </span>
-                            My Account
-                        </a>
-                    </li>
-                    <li>
-                        <a href="wishlist.html" title="Wishlist">
-                            <span class="utilize-btn-icon">
-                                <i class="far fa-heart"></i>
-                                <sup>3</sup>
-                            </span>
-                            Wishlist
-                        </a>
-                    </li>
-                    <li>
-                        <a href="cart.html" title="Shoping Cart">
-                            <span class="utilize-btn-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                                <sup>5</sup>
-                            </span>
-                            Shoping Cart
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            
             <div class="ltn__social-media-2">
                 <ul>
-                    <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://web.facebook.com/giftemproperties/?_rdc=1&_rdr#"
+                     title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <!--<li><a href="" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>-->
+                    <li><a href="https://www.instagram.com/giftem_globalproperties/" 
+                    title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+
+                    <li><a href="https://www.youtube.com/@GIFTEMGLOBALS" 
+                    target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -482,26 +289,21 @@
                                 <div class="col-lg-12 align-self-center">
                                     <div class="slide-item-info">
                                         <div class="slide-item-info-inner ltn__slide-animation">
-                                            <div class="slide-video mb-50 d-none">
-                                                <a class="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
-                                                    <i class="fa fa-play"></i>
-                                                </a>
-                                            </div>
-                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Real Estate Agency</h6>
-                                            <h1 class="slide-title animated ">Search and Find <br><span>Luxury</span> House</h1>
+                                            
+                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Properties and Investment Company</h6>
+                                            <h1 class="slide-title animated ">Find Your<span> Dream </span><br><span> Land </span> In Ibadan</h1>
                                             <div class="slide-brief animated">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                                <p>Discover affordable and premium landed properties tailored
+                                                     to your needs. Secure your future today!</p>
                                             </div>
                                             <div class="btn-wrapper animated">
-                                                <a href="about.html" class="theme-btn-1 btn btn-effect-1">Make An Enquiry</a>
-                                                <a class="ltn__video-play-btn bg-white" href="https://www.youtube.com/embed/HnbMYzdjuBs?autoplay=1&amp;showinfo=0" data-rel="lightcase">
-                                                    <i class="icon-play  ltn__secondary-color"></i>
-                                                </a>
+                                                <a href="contact-us.php" class="theme-btn-1 btn btn-effect-1">Contact Us</a>
+                                                
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slide-item-img">
-                                        <img src="img/slider/61.jpg" alt="#">
+                                        <img src="img/slider/landed-property.jpg" alt="#">
                                     </div>
                                 </div>
                             </div>
@@ -516,24 +318,21 @@
                                 <div class="col-lg-12 align-self-center">
                                     <div class="slide-item-info">
                                         <div class="slide-item-info-inner ltn__slide-animation">
-                                            <div class="slide-video mb-50 d-none">
-                                                <a class="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
-                                                    <i class="fa fa-play"></i>
-                                                </a>
-                                            </div>
-                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Real Estate Agency</h6>
-                                            <h1 class="slide-title animated ">Find Your Dream <br> House By Us</h1>
+                                            
+                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Real Estate Company</h6>
+                                            <h1 class="slide-title animated ">Welcome to <br> Giftem Diamond Court Estate</h1>
                                             <div class="slide-brief animated">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                                <p>Own a 500sqm plot now for just ₦15 million!
+                                                     Fully certified with a Certificate of Occupancy. Invest in luxury, invest in your future.</p>
                                             </div>
                                             <div class="btn-wrapper animated">
-                                                <a href="service.html" class="theme-btn-1 btn btn-effect-1">OUR SERVICES</a>
-                                                <a href="about.html" class="btn btn-transparent btn-effect-3">LEARN MORE</a>
+                                                <a href="contact-us.php" class="theme-btn-1 btn btn-effect-1">Buy Now</a>
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slide-item-img">
-                                        <img src="img/slider/62.jpg" alt="#">
+                                        <img src="img/slider/Giftem-Global.jpg" alt="#">
                                     </div>
                                 </div>
                             </div>
@@ -548,24 +347,20 @@
                                 <div class="col-lg-12 align-self-center">
                                     <div class="slide-item-info">
                                         <div class="slide-item-info-inner ltn__slide-animation">
-                                            <div class="slide-video mb-50 d-none">
-                                                <a class="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
-                                                    <i class="fa fa-play"></i>
-                                                </a>
-                                            </div>
+                                           
                                             <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Real Estate Agency</h6>
-                                            <h1 class="slide-title animated ">Find Your Dream <br> House By Us</h1>
+                                            <h1 class="slide-title animated ">Experience Luxury at<br> Giftem Sunset Estate</h1>
                                             <div class="slide-brief animated">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                                <p>Own a 450sqm plot at Jericho Extension, Ibadan, for ₦18 million.
+                                                     Premium location, unmatched value—your dream investment awaits!"</p>
                                             </div>
                                             <div class="btn-wrapper animated">
-                                                <a href="service.html" class="theme-btn-1 btn btn-effect-1">OUR SERVICES</a>
-                                                <a href="about.html" class="btn btn-transparent btn-effect-3">LEARN MORE</a>
+                                            <a href="contact-us.php" class="theme-btn-1 btn btn-effect-1">Buy Now</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slide-item-img">
-                                        <img src="img/slider/63.jpg" alt="#">
+                                        <img src="img/slider/Giftem-Sunset_Introducing.jpg" alt="#">
                                     </div>
                                 </div>
                             </div>
@@ -580,24 +375,22 @@
                                 <div class="col-lg-12 align-self-center">
                                     <div class="slide-item-info">
                                         <div class="slide-item-info-inner ltn__slide-animation">
-                                            <div class="slide-video mb-50 d-none">
-                                                <a class="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
-                                                    <i class="fa fa-play"></i>
-                                                </a>
-                                            </div>
-                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Real Estate Agency</h6>
-                                            <h1 class="slide-title animated ">Find Your Dream <br> House By Us</h1>
+                                           
+                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span>Properties and Investment Limited</h6>
+                                            <h1 class="slide-title animated ">Discover Your Perfect<br> Plot at Giftem Estate</h1>
                                             <div class="slide-brief animated">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                                <p>Exclusive offers on prime properties.
+                                                Invest in your future today with secure, well-located plots
+                                                 at unbeatable prices!</p>
                                             </div>
                                             <div class="btn-wrapper animated">
-                                                <a href="service.html" class="theme-btn-1 btn btn-effect-1">OUR SERVICES</a>
-                                                <a href="about.html" class="btn btn-transparent btn-effect-3">LEARN MORE</a>
+                                                <a href="contact-us.php" class="theme-btn-1 btn btn-effect-1">Buy Now</a>
+                                               
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slide-item-img">
-                                        <img src="img/slider/64.jpg" alt="#">
+                                        <img src="img/slider/giftem-about.jpg" alt="#">
                                     </div>
                                 </div>
                             </div>
@@ -623,16 +416,16 @@
                 <div class="ltn__slider-11-img-slide-arrow-inner">
                     <div class="ltn__slider-11-img-slide-arrow-active">
                         <div class="image-slide-item">
-                            <img src="img/slider/61.jpg" alt="Flower Image">
+                            <img src="img/slider/landed-property.jpg" alt="Flower Image">
                         </div>
                         <div class="image-slide-item">
-                            <img src="img/slider/62.jpg" alt="Flower Image">
+                            <img src="img/slider/Giftem-Global.jpg" alt="Flower Image">
                         </div>
                         <div class="image-slide-item">
-                            <img src="img/slider/63.jpg" alt="Flower Image">
+                            <img src="img/slider/Giftem-Sunset_Introducing.jpg" alt="Flower Image">
                         </div>
                         <div class="image-slide-item">
-                            <img src="img/slider/64.jpg" alt="Flower Image">
+                            <img src="img/slider/giftem-about.jpg" alt="Flower Image">
                         </div>
                     </div>
                     <!-- slider-4-slide-item-count -->
@@ -648,120 +441,116 @@
     <!-- SLIDER AREA END -->
 
     <!-- ABOUT US AREA START -->
-    <div class="ltn__about-us-area pt-115 pb-100 ">
+    <!-- ABOUT US AREA START -->
+    <div class="ltn__about-us-area pt-120 pb-90">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="about-us-img-wrap about-img-left">
-                        <img src="img/others/11.png" alt="About Us Image">
-                        <div class="about-us-img-info about-us-img-info-2 about-us-img-info-3 d-none">
+                        <img src="img/others/giftem-corner.jpg" alt="About Us Image">
+                        <div class="about-us-img-info about-us-img-info-2 about-us-img-info-3">
                             
-                            <div class="ltn__video-img ltn__animation-pulse1">
-                                <img src="img/others/8.png" alt="video popup bg image">
+                           <!-- <div class="ltn__video-img ltn__animation-pulse1">
+                                <img src="img/giftem-about.jpg" alt="video popup bg image">
                                 <a class="ltn__video-icon-2 ltn__video-icon-2-border---" href="https://www.youtube.com/embed/X7R-q9rsrtU?autoplay=1&amp;showinfo=0"  data-rel="lightcase:myCollection">
                                     <i class="fa fa-play"></i>
                                 </a>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-info-wrap">
-                        <div class="section-title-area ltn__section-title-2--- mb-30">
-                            <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">About Us</h6>
-                            <h1 class="section-title">Dream Living Spaces
-                                Setting New Build</h1>
-                            <p>Over 39,000 people work for us in more than 70 countries all over the
-                                This breadth of global coverage, combined with specialist services</p>
-                        </div>                        
-                        <div class="ltn__feature-item ltn__feature-item-3">
-                            <div class="ltn__feature-icon">
-                                <span><i class="flaticon-house-4"></i></span>
-                            </div>
-                            <div class="ltn__feature-info">
-                                <h4><a href="service-details.html">The Perfect Residency</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
-                            </div>
-                        </div>
-                        <div class="ltn__feature-item ltn__feature-item-3">
-                            <div class="ltn__feature-icon">
-                                <span><i class="flaticon-call-center-agent"></i></span>
-                            </div>
-                            <div class="ltn__feature-info">
-                                <h4><a href="service-details.html">Global Architect Experts</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
-                            </div>
-                        </div>
-                        <div class="ltn__feature-item ltn__feature-item-3">
-                            <div class="ltn__feature-icon">
-                                <span><i class="flaticon-maps-and-location"></i></span>
-                            </div>
-                            <div class="ltn__feature-info">
-                                <h4><a href="service-details.html">Built-in Storage Cupboards</a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ABOUT US AREA END -->
-
-    <!-- ABOUT US AREA START -->
-    <div class="ltn__about-us-area section-bg-1 bg-image-right-before pt-120 pb-90">
-        <div class="container">
-            <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="about-us-info-wrap">
                         <div class="section-title-area ltn__section-title-2--- mb-20">
-                            <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">Building Facilities</h6>
-                            <h1 class="section-title">Making living spaces
-                                More Beautiful</h1>
-                            <p>Over 39,000 people work for us in more than 70 countries all over the
-                                This breadth of global coverage, combined with specialist services</p>
+                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">About Us</h6>
+                            <h1 class="section-title">Who We Are<span>.</span></h1>
+                            <p>At Giftem Global Properties and Investment Limited, our mission is
+                            to redefine real estate by creating secure, modern, and well-planned estates
+                            for individuals and families.</p>
+                           
                         </div>
-                        <ul class="ltn__list-item-half ltn__list-item-half-2 list-item-margin clearfix">
+                        <h5>Our Core Values</h5>
+                        <ul class="ltn__list-item-half clearfix">
                             <li>
-                                <i class="icon-done"></i>
-                                Living rooms are pre-wired for Surround
+                                <i class=""></i>
+                                Integrity 
                             </li>
                             <li>
-                                <i class="icon-done"></i>
-                                Luxurious interior design and amenities
+                                <i class=""></i>
+                                Drive  
                             </li>
                             <li>
-                                <i class="icon-done"></i>
-                                Nestled in the Buckhead Vinings communities
+                                <i class=""></i>
+                                Commitment 
                             </li>
                             <li>
-                                <i class="icon-done"></i>
-                                Private balconies with stunning views
+                                <i class=""></i>
+                                Excellence 
                             </li>
                             <li>
-                                <i class="icon-done"></i>
-                                A rare combination of inspired architecture
-                            </li>
-                            <li>
-                                <i class="icon-done"></i>
-                                Outdoor grilling with dining court
+                                <i class=""></i>
+                                Professionalism 
                             </li>
                         </ul>
-                        <div class="  ltn__animation-pulse2 text-center mt-30">
-                            <a class="ltn__video-play-btn bg-white--- ltn__secondary-bg" href="https://www.youtube.com/embed/HnbMYzdjuBs?autoplay=1&amp;showinfo=0" data-rel="lightcase">
-                                <i class="icon-play  ltn__secondary-color--- white-color"></i>
-                            </a>
+                        <div class="ltn__callout bg-overlay-theme-05  mt-30">
+                            <p>As a dedicated real estate developer, we’re committed to delivering
+                                 high-quality properties that give people confidence in their investments
+                                  and a solid foundation for the future.  </p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-img-wrap about-img-left">
-                        
+                        <div class="btn-wrapper animated">
+                            <a href="about.php" class="theme-btn-1 btn btn-effect-1">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+   
+     <!-- COUNTER UP AREA START -->
+     <div class="ltn__counterup-area section-bg-1 pt-120 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 align-self-center">
+                    <div class="ltn__counterup-item text-color-white---">
+                        <div class="counter-icon">
+                            <i class="flaticon-select"></i>
+                        </div>
+                        <h1><span class="counter">560</span><span class="counterUp-icon">+</span> </h1>
+                        <h6>Total Area Sq</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 align-self-center">
+                    <div class="ltn__counterup-item text-color-white---">
+                        <div class="counter-icon">
+                            <i class="flaticon-office"></i>
+                        </div>
+                        <h1><span class="counter">197</span><span class="counterUp-letter">K</span><span class="counterUp-icon">+</span> </h1>
+                        <h6>Apartments Sold</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 align-self-center">
+                    <div class="ltn__counterup-item text-color-white---">
+                        <div class="counter-icon">
+                            <i class="flaticon-excavator"></i>
+                        </div>
+                        <h1><span class="counter">268</span><span class="counterUp-icon">+</span> </h1>
+                        <h6>Total Constructions</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 align-self-center">
+                    <div class="ltn__counterup-item text-color-white---">
+                        <div class="counter-icon">
+                            <i class="flaticon-user"></i>
+                        </div>
+                        <h1><span class="counter">340</span><span class="counterUp-icon">+</span> </h1>
+                        <h6>Clients</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COUNTER UP AREA END -->
+
     <!-- ABOUT US AREA END -->
 
     <!-- FEATURE AREA START ( Feature - 6) -->
@@ -776,42 +565,77 @@
                 </div>
             </div>
             <div class="row ltn__custom-gutter---  justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-12">
+                <div class="col-lg-3 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
                             <!-- <span><i class="flaticon-house"></i></span> -->
                             <img src="img/icons/icon-img/21.png" alt="#">
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Buy a home</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                            <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a>
+                            <h3><a href="#">Exclusive Estates Development</a></h3>
+                            <p>
+                            We design and develop secure, well-planned estates with a focus on privacy, 
+                            convenience, and a sense of community. 
+                            Our gated estates offer peace of mind with controlled
+                             access and modern amenities, ensuring a high standard of living.    
+                            </p>
+                             <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a>-->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12">
+                <div class="col-lg-3 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 active">
                         <div class="ltn__feature-icon">
                             <!-- <span><i class="flaticon-house-3"></i></span> -->
                             <img src="img/icons/icon-img/22.png" alt="#">
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Rent a home</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                            <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a>
+                            <h3><a href="#">Personalized Property Consultation  </a></h3>
+                            <p>
+
+                            Navigating real estate doesn’t have to be complicated. 
+                            Our team provides personalized guidance to help you make
+                             informed decisions when buying, selling, or investing,
+                              so you can grow your assets with confidence.
+                            </p>
+                                                       <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a>-->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12">
+                <div class="col-lg-3 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
                             <!-- <span><i class="flaticon-deal-1"></i></span> -->
                             <img src="img/icons/icon-img/23.png" alt="#">
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Sell a home</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                            <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a>
+                            <h3><a href="#">Investment Opportunities</a></h3>
+                            <p>
+                            We bring you promising investment opportunities, ensuring that each property
+                             offers high potential
+                             returns and long-term value.
+                             At Giftem, we believe in helping you secure assets that will appreciate
+                              and benefit you for years to come.
+                                </p>
+                                                      <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
+                        <div class="ltn__feature-icon">
+                            <!-- <span><i class="flaticon-deal-1"></i></span> -->
+                            <img src="img/icons/icon-img/23.png" alt="#">
+                        </div>
+                        <div class="ltn__feature-info">
+                            <h3><a href="#">Secured Land Titles </a></h3>
+                            <p>
+                            We take pride in offering only genuine properties with verified titles,
+                             protecting your investments every step of the way.
+                             With Giftem, your land ownership is transparent and legally sound.
+                            </p>
+                           <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a>-->
                         </div>
                     </div>
                 </div>
@@ -819,9 +643,9 @@
         </div>
     </div>
     <!-- FEATURE AREA END -->
-
+  
     <!-- UPCOMING PROJECT AREA START -->
-    <div class="ltn__upcoming-project-area section-bg-1--- bg-image-top pt-115 pb-65" data-bs-bg="img/bg/22.jpg">
+      <!--<div class="ltn__upcoming-project-area section-bg-1--- bg-image-top pt-115 pb-65" data-bs-bg="img/bg/22.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -833,7 +657,7 @@
                 </div>
             </div>
             <div class="row ltn__upcoming-project-slider-1-active slick-arrow-3">
-                <!-- upcoming-project-item -->
+               
                 <div class="col-lg-12">
                     <div class="ltn__upcoming-project-item">
                         <div class="row">
@@ -861,7 +685,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- upcoming-project-item -->
+          
                 <div class="col-lg-12">
                     <div class="ltn__upcoming-project-item">
                         <div class="row">
@@ -889,7 +713,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- upcoming-project-item -->
+               
                 <div class="col-lg-12">
                     <div class="ltn__upcoming-project-item">
                         <div class="row">
@@ -917,182 +741,13 @@
                         </div>
                     </div>
                 </div>
-                <!--  -->
+            
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- UPCOMING PROJECT AREA END -->
 
-    <!-- APARTMENTS PLAN AREA START -->
-    <div class="ltn__apartments-plan-area pt-115--- pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">Apartment Sketch</h6>
-                        <h1 class="section-title">Apartments Plan</h1>
-                    </div>
-                    <div class="ltn__tab-menu ltn__tab-menu-3 ltn__tab-menu-top-right-- text-uppercase--- text-center">
-                        <div class="nav">
-                            <a data-bs-toggle="tab" href="#liton_tab_3_1">The Studio</a>
-                            <a class="active show"  data-bs-toggle="tab" href="#liton_tab_3_2">Deluxe Portion</a>
-                            <a data-bs-toggle="tab" href="#liton_tab_3_3" class="">Penthouse</a>
-                            <a data-bs-toggle="tab" href="#liton_tab_3_4" class="">Top Garden</a>
-                            <a data-bs-toggle="tab" href="#liton_tab_3_5" class="">Double Height</a>
-                        </div>
-                    </div>
-                    <div class="tab-content">
-                        <div class="tab-pane fade" id="liton_tab_3_1">
-                            <div class="ltn__apartments-tab-content-inner">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-info ltn__secondary-bg--- section-bg-1 text-color-white---">
-                                            <h2>The Studio</h2>
-                                            <p>Enimad minim veniam quis nostrud exercitation ullamco laboris.
-                                                Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo
-                                                eiusmod tempor.Incididunt labore et dolore magna aliqua.
-                                                sed ayd minim veniam.</p>
-                                            <div class="apartments-info-list apartments-info-list-color mt-40">
-                                                <ul>
-                                                    <li><label>Total Area</label> <span>2800 Sq. Ft</span></li>
-                                                    <li><label>Bedroom</label> <span>150 Sq. Ft</span></li>
-                                                    <li><label>Bathroom</label> <span>45 Sq. Ft</span></li>
-                                                    <li><label>Belcony/Pets</label> <span>Allowed</span></li>
-                                                    <li><label>Lounge</label> <span>650 Sq. Ft</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-img">
-                                            <img src="img/others/10.png" alt="#">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade active show" id="liton_tab_3_2">
-                            <div class="ltn__product-tab-content-inner">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-info ltn__secondary-bg--- section-bg-1 text-color-white---">
-                                            <h2>Deluxe Portion</h2>
-                                            <p>Enimad minim veniam quis nostrud exercitation ullamco laboris.
-                                                Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo
-                                                eiusmod tempor.Incididunt labore et dolore magna aliqua.
-                                                sed ayd minim veniam.</p>
-                                            <div class="apartments-info-list apartments-info-list-color mt-40">
-                                                <ul>
-                                                    <li><label>Total Area</label> <span>2800 Sq. Ft</span></li>
-                                                    <li><label>Bedroom</label> <span>150 Sq. Ft</span></li>
-                                                    <li><label>Bathroom</label> <span>45 Sq. Ft</span></li>
-                                                    <li><label>Belcony/Pets</label> <span>Allowed</span></li>
-                                                    <li><label>Lounge</label> <span>650 Sq. Ft</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-img">
-                                            <img src="img/others/10.png" alt="#">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="liton_tab_3_3">
-                            <div class="ltn__product-tab-content-inner">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-info ltn__secondary-bg--- section-bg-1 text-color-white---">
-                                            <h2>Penthouse</h2>
-                                            <p>Enimad minim veniam quis nostrud exercitation ullamco laboris.
-                                                Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo
-                                                eiusmod tempor.Incididunt labore et dolore magna aliqua.
-                                                sed ayd minim veniam.</p>
-                                            <div class="apartments-info-list apartments-info-list-color mt-40">
-                                                <ul>
-                                                    <li><label>Total Area</label> <span>2800 Sq. Ft</span></li>
-                                                    <li><label>Bedroom</label> <span>150 Sq. Ft</span></li>
-                                                    <li><label>Bathroom</label> <span>45 Sq. Ft</span></li>
-                                                    <li><label>Belcony/Pets</label> <span>Allowed</span></li>
-                                                    <li><label>Lounge</label> <span>650 Sq. Ft</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-img">
-                                            <img src="img/others/10.png" alt="#">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="liton_tab_3_4">
-                            <div class="ltn__product-tab-content-inner">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-info ltn__secondary-bg--- section-bg-1 text-color-white---">
-                                            <h2>Top Garden</h2>
-                                            <p>Enimad minim veniam quis nostrud exercitation ullamco laboris.
-                                                Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo
-                                                eiusmod tempor.Incididunt labore et dolore magna aliqua.
-                                                sed ayd minim veniam.</p>
-                                            <div class="apartments-info-list apartments-info-list-color mt-40">
-                                                <ul>
-                                                    <li><label>Total Area</label> <span>2800 Sq. Ft</span></li>
-                                                    <li><label>Bedroom</label> <span>150 Sq. Ft</span></li>
-                                                    <li><label>Bathroom</label> <span>45 Sq. Ft</span></li>
-                                                    <li><label>Belcony/Pets</label> <span>Allowed</span></li>
-                                                    <li><label>Lounge</label> <span>650 Sq. Ft</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-img">
-                                            <img src="img/others/10.png" alt="#">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="liton_tab_3_5">
-                            <div class="ltn__product-tab-content-inner">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-info ltn__secondary-bg--- section-bg-1 text-color-white---">
-                                            <h2>Double Height</h2>
-                                            <p>Enimad minim veniam quis nostrud exercitation ullamco laboris.
-                                                Lorem ipsum dolor sit amet cons aetetur adipisicing elit sedo
-                                                eiusmod tempor.Incididunt labore et dolore magna aliqua.
-                                                sed ayd minim veniam.</p>
-                                            <div class="apartments-info-list apartments-info-list-color mt-40">
-                                                <ul>
-                                                    <li><label>Total Area</label> <span>2800 Sq. Ft</span></li>
-                                                    <li><label>Bedroom</label> <span>150 Sq. Ft</span></li>
-                                                    <li><label>Bathroom</label> <span>45 Sq. Ft</span></li>
-                                                    <li><label>Belcony/Pets</label> <span>Allowed</span></li>
-                                                    <li><label>Lounge</label> <span>650 Sq. Ft</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="apartments-plan-img">
-                                            <img src="img/others/10.png" alt="#">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- APARTMENTS PLAN AREA END -->
+   
 
     <!-- SEARCH BY PLACE AREA START (testimonial-7) -->
     <div class="ltn__search-by-place-area before-bg-top bg-image-top--- pt-115 pb-70" data-bs-bg="img/bg/20.jpg">
@@ -1100,9 +755,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2--- text-center---">
-                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">Area Properties</h6>
-                        <h1 class="section-title">Find Your Dream House <br>
-                            Search By Area</h1>
+                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">Properties</h6>
+                        <h1 class="section-title">Find Your Dream Landed <br>
+                            Property</h1>
                     </div>
                 </div>
             </div>
@@ -1110,18 +765,18 @@
                 <div class="col-lg-4">
                     <div class="ltn__search-by-place-item">
                         <div class="search-by-place-img">
-                            <a href="product-details.html"><img src="img/product-3/1.jpg" alt="#"></a>
+                            <a href="#"><img src="img/slider/Giftem Sunset_Introducing-2.jpg" alt="#"></a>
                             <div class="search-by-place-badge">
                                 <ul>
-                                    <li>2 Properties</li>
+                                    <li></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="search-by-place-info">
-                            <h6><a href="locations.html">San Francisco</a></h6>
-                            <h4><a href="product-details.html">Mission District Area</a></h4>
+                            <h6><a href="#">Jericho Estate Extension</a></h6>
+                            <h4><a href="#">Giftem Sunset Estate</a></h4>
                             <div class="search-by-place-btn">
-                                <a href="product-details.html">View Property <i class="flaticon-right-arrow"></i></a>
+                                <a href="#">View Property <i class="flaticon-right-arrow"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1129,18 +784,18 @@
                 <div class="col-lg-4">
                     <div class="ltn__search-by-place-item">
                         <div class="search-by-place-img">
-                            <a href="product-details.html"><img src="img/product-3/2.jpg" alt="#"></a>
+                            <a href="#"><img src="img/slider/Giftem New 1-5.jpg" alt="#"></a>
                             <div class="search-by-place-badge">
                                 <ul>
-                                    <li>5 Properties</li>
+                                    <li></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="search-by-place-info">
-                            <h6><a href="locations.html">New York</a></h6>
-                            <h4><a href="product-details.html">Pacific Heights Area</a></h4>
+                            <h6><a href="#">Ologolo, Alafara</a></h6>
+                            <h4><a href="#">Diamond Court Estate </a></h4>
                             <div class="search-by-place-btn">
-                                <a href="product-details.html">View Property <i class="flaticon-right-arrow"></i></a>
+                                <a href="#">View Property <i class="flaticon-right-arrow"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1148,40 +803,23 @@
                 <div class="col-lg-4">
                     <div class="ltn__search-by-place-item">
                         <div class="search-by-place-img">
-                            <a href="product-details.html"><img src="img/product-3/3.jpg" alt="#"></a>
+                            <a href="#"><img src="img/slider/landed-property.jpg" alt="#"></a>
                             <div class="search-by-place-badge">
                                 <ul>
-                                    <li>9 Properties</li>
+                                    <li></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="search-by-place-info">
-                            <h6><a href="locations.html">Sedona, Arizona</a></h6>
-                            <h4><a href="product-details.html">Noe Valley Zones</a></h4>
+                            <h6><a href="#">Ibadan</a></h6>
+                            <h4><a href="#">Landed Propery</a></h4>
                             <div class="search-by-place-btn">
-                                <a href="product-details.html">View Property <i class="flaticon-right-arrow"></i></a>
+                                <a href="#">View Property <i class="flaticon-right-arrow"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="ltn__search-by-place-item">
-                        <div class="search-by-place-img">
-                            <a href="product-details.html"><img src="img/product-3/2.jpg" alt="#"></a>
-                            <div class="search-by-place-badge">
-                                <ul>
-                                    <li>5 Properties</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="search-by-place-info">
-                            <h6><a href="locations.html">New York</a></h6>
-                            <h4><a href="product-details.html">Pacific Heights Area</a></h4>
-                            <div class="search-by-place-btn">
-                                <a href="product-details.html">View Property <i class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                
                 </div>
                 <!--  -->
             </div>
@@ -1189,469 +827,12 @@
     </div>
     <!-- SEARCH BY PLACE AREA END -->
 
-    <!-- SELECT AVAILABILITY AREA START -->
-    <div class="select-availability-area pb-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area ltn__section-title-2--- text-center---">
-                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">Avialable Spaces</h6>
-                        <h1 class="section-title">Select Availability</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ltn__select-availability-table-wrap">
-                        <div class="ltn__select-availability-table d-none d-md-block">
-                            <ul class="ltn__select-availability-table-head">
-                                <li>Residence</li>
-                                <li>Bedrooms</li>
-                                <li>Bathroom</li>
-                                <li>SQ.FT </li>
-                                <li>Rent Price</li>
-                                <li>Details</li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row">
-                                <li class="tower-name">Tower Name</li>
-                                <li>3</li>
-                                <li>3</li>
-                                <li>1,200 </li>
-                                <li>$3,500</li>
-                                <li><a href="product-details.html">+ Available</a></li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row">
-                                <li class="tower-name">Tower Name</li>
-                                <li>3</li>
-                                <li>3</li>
-                                <li>1,200 </li>
-                                <li>$3,500</li>
-                                <li><a href="product-details.html">+ Available</a></li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row">
-                                <li class="tower-name">Tower Name</li>
-                                <li>3</li>
-                                <li>3</li>
-                                <li>1,200 </li>
-                                <li>$3,500</li>
-                                <li><a href="product-details.html">+ Available</a></li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row">
-                                <li class="tower-name">Tower Name</li>
-                                <li>3</li>
-                                <li>3</li>
-                                <li>1,200 </li>
-                                <li>$3,500</li>
-                                <li><a href="product-details.html">+ Available</a></li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row">
-                                <li class="tower-name">Tower Name</li>
-                                <li>3</li>
-                                <li>3</li>
-                                <li>1,200 </li>
-                                <li>$3,500</li>
-                                <li><a href="product-details.html">+ Available</a></li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row">
-                                <li class="tower-name">Tower Name</li>
-                                <li>3</li>
-                                <li>3</li>
-                                <li>1,200 </li>
-                                <li>$3,500</li>
-                                <li><a href="product-details.html">+ Available</a></li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row">
-                                <li class="tower-name">Tower Name</li>
-                                <li>3</li>
-                                <li>3</li>
-                                <li>1,200 </li>
-                                <li>$3,500</li>
-                                <li><a href="product-details.html">+ Available</a></li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row">
-                                <li class="tower-name">Tower Name</li>
-                                <li>3</li>
-                                <li>3</li>
-                                <li>1,200 </li>
-                                <li>$3,500</li>
-                                <li><a href="product-details.html">+ Available</a></li>
-                            </ul>
-                        </div>
-                        <div class="ltn__select-availability-table-responsive d-md-none">
-                            <ul class="ltn__select-availability-table-row-responsive-item">
-                                <li><span>Residence</span> <span class="tower-name">Tower Name</span></li>
-                                <li><span>Bedrooms</span> <span>3</span></li>
-                                <li><span>Bathroom</span> <span>3</span></li>
-                                <li><span>SQ.FT</span> <span>1,200</span></li>
-                                <li><span>Rent Price</span> <span>$3,500</span></li>
-                                <li><span>Details</span> <span><a href="product-details.html">+ Available</a></span></li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row-responsive-item">
-                                <li><span>Residence</span> <span class="tower-name">Tower Name</span></li>
-                                <li><span>Bedrooms</span> <span>3</span></li>
-                                <li><span>Bathroom</span> <span>3</span></li>
-                                <li><span>SQ.FT</span> <span>1,200</span></li>
-                                <li><span>Rent Price</span> <span>$3,500</span></li>
-                                <li><span>Details</span> <span><a href="product-details.html">+ Available</a></span></li>
-                            </ul>
-                            <ul class="ltn__select-availability-table-row-responsive-item">
-                                <li><span>Residence</span> <span class="tower-name">Tower Name</span></li>
-                                <li><span>Bedrooms</span> <span>3</span></li>
-                                <li><span>Bathroom</span> <span>3</span></li>
-                                <li><span>SQ.FT</span> <span>1,200</span></li>
-                                <li><span>Rent Price</span> <span>$3,500</span></li>
-                                <li><span>Details</span> <span><a href="product-details.html">+ Available</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- SELECT AVAILABILITY AREA END -->
+    
 
-    <!-- NEIGHBOUR AREA START -->
-    <div class="neighbour-area section-bg-1 pt-118 pb-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area ltn__section-title-2--- text-center---">
-                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">Explore Neighbour</h6>
-                        <h1 class="section-title">What’s In Neighbour <br>
-                            Explore Below</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ltn__neighbour-tab-wrap">
-                        <div class="ltn__tab-menu ltn__tab-menu-3--- ltn__tab-menu-4 ltn__tab-menu-top-right-- text-uppercase--- text-center">
-                            <div class="nav">
-                                <a class="active show"  data-bs-toggle="tab" href="#liton_tab_4_1"><img src="img/neighbour/1.jpg" alt="#"></a>
-                                <a data-bs-toggle="tab" href="#liton_tab_4_2" class=""><img src="img/neighbour/2.jpg" alt="#"></a>
-                                <a data-bs-toggle="tab" href="#liton_tab_4_3" class=""><img src="img/neighbour/3.jpg" alt="#"></a>
-                            </div>
-                        </div>
-                        <div class="tab-content">
-                            <div class="tab-pane fade active show" id="liton_tab_4_1">
-                                <div class="ltn__neighbour-tab-content-inner">
-                                    <div class="row">
-                                        <div class="col-lg-8">
-                                            <div class="neighbour-apartments-img">
-                                                <img src="img/neighbour/1.jpg" alt="#">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="ltn__search-by-place-item neighbour-apartments-item">
-                                                <div class="search-by-place-img">
-                                                    <a href="product-details.html"><img src="img/product-3/3.jpg" alt="#"></a>
-                                                    <div class="search-by-place-badge">
-                                                        <ul>
-                                                            <li>9 Properties</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="search-by-place-info">
-                                                    <h4><a href="product-details.html">Shopping Center</a></h4>
-                                                    <label><span class="ltn__secondary-color">1,500m </span>/ 21 min. walk</label>
-                                                    <div class="search-by-place-brief">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                            elit, sed do eiusmod tempor incididunt ut labore Enim
-                                                            ullamco laboris.</p>
-                                                    </div>
-                                                    <div class="search-by-place-btn">
-                                                        <a href="product-details.html">View Property <i class="flaticon-right-arrow"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="liton_tab_4_2">
-                                <div class="ltn__neighbour-tab-content-inner">
-                                    <div class="row">
-                                        <div class="col-lg-8">
-                                            <div class="neighbour-apartments-img">
-                                                <img src="img/neighbour/2.jpg" alt="#">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="ltn__search-by-place-item neighbour-apartments-item">
-                                                <div class="search-by-place-img">
-                                                    <a href="product-details.html"><img src="img/product-3/2.jpg" alt="#"></a>
-                                                    <div class="search-by-place-badge">
-                                                        <ul>
-                                                            <li>9 Properties</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="search-by-place-info">
-                                                    <h4><a href="product-details.html">Medical Hospital</a></h4>
-                                                    <label><span class="ltn__secondary-color">1,500m </span>/ 21 min. walk</label>
-                                                    <div class="search-by-place-brief">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                            elit, sed do eiusmod tempor incididunt ut labore Enim
-                                                            ullamco laboris.</p>
-                                                    </div>
-                                                    <div class="search-by-place-btn">
-                                                        <a href="product-details.html">View Property <i class="flaticon-right-arrow"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="liton_tab_4_3">
-                                <div class="ltn__neighbour-tab-content-inner">
-                                    <div class="row">
-                                        <div class="col-lg-8">
-                                            <div class="neighbour-apartments-img">
-                                                <img src="img/neighbour/3.jpg" alt="#">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="ltn__search-by-place-item neighbour-apartments-item">
-                                                <div class="search-by-place-img">
-                                                    <a href="product-details.html"><img src="img/product-3/4.jpg" alt="#"></a>
-                                                    <div class="search-by-place-badge">
-                                                        <ul>
-                                                            <li>9 Properties</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="search-by-place-info">
-                                                    <h4><a href="product-details.html">Children Playland</a></h4>
-                                                    <label><span class="ltn__secondary-color">1,500m </span>/ 21 min. walk</label>
-                                                    <div class="search-by-place-brief">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                            elit, sed do eiusmod tempor incididunt ut labore Enim
-                                                            ullamco laboris.</p>
-                                                    </div>
-                                                    <div class="search-by-place-btn">
-                                                        <a href="product-details.html">View Property <i class="flaticon-right-arrow"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ltn__faq-inner ltn__faq-inner-2 ltn__faq-inner-3">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div id="accordion_2">
-                                    <!-- card -->
-                                    <div class="card">
-                                        <h6 class="collapsed ltn__card-title" data-bs-toggle="collapse" data-bs-target="#faq-item-2-1" aria-expanded="false">
-                                           <i class="flaticon-mortarboard"></i> University / College
-                                        </h6>
-                                        <div id="faq-item-2-1" class="collapse" data-bs-parent="#accordion_2">
-                                            <div class="card-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- card -->
-                                    <div class="card">
-                                        <h6 class="collapsed ltn__card-title" data-bs-toggle="collapse" data-bs-target="#faq-item-2-2" aria-expanded="false"> 
-                                           <i class="flaticon-hospital"></i> Medical Hospital
-                                        </h6>
-                                        <div id="faq-item-2-2" class="collapse show---" data-bs-parent="#accordion_2">
-                                            <div class="card-body">
-                                                <div class="ltn__video-img alignleft">
-                                                    <img src="img/bg/17.jpg" alt="video popup bg image">
-                                                    <a class="ltn__video-icon-2 ltn__video-icon-2-small ltn__video-icon-2-border----" href="https://www.youtube.com/embed/LjCzPp-MK48?autoplay=1&amp;showinfo=0"  data-rel="lightcase:myCollection">
-                                                        <i class="fa fa-play"></i>
-                                                    </a>
-                                                </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis.</p>
-                                            </div>
-                                        </div>
-                                    </div>                          
-                                    <!-- card -->
-                                    <div class="card">
-                                        <h6 class="collapsed ltn__card-title" data-bs-toggle="collapse" data-bs-target="#faq-item-2-3" aria-expanded="false">
-                                           <i class="flaticon-metro"></i> Railway Station
-                                        </h6>
-                                        <div id="faq-item-2-3" class="collapse" data-bs-parent="#accordion_2">
-                                            <div class="card-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--  -->
-                                </div>                                
-                            </div>
-                            <div class="col-lg-6">
-                                <div id="accordion_3">
-                                    <!-- card -->
-                                    <div class="card">
-                                        <h6 class="collapsed ltn__card-title" data-bs-toggle="collapse" data-bs-target="#faq-item-3-4" aria-expanded="false">
-                                           <i class="flaticon-building"></i> Shopping Mall
-                                        </h6>
-                                        <div id="faq-item-3-4" class="collapse" data-bs-parent="#accordion_3">
-                                            <div class="card-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- card -->
-                                    <div class="card">
-                                        <h6 class="collapsed ltn__card-title" data-bs-toggle="collapse" data-bs-target="#faq-item-3-5" aria-expanded="false">
-                                            <i class="flaticon-airplane"></i> Airport/Biman
-                                        </h6>
-                                        <div id="faq-item-3-5" class="collapse" data-bs-parent="#accordion_3">
-                                            <div class="card-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- card -->
-                                    <div class="card">
-                                        <h6 class="collapsed ltn__card-title" data-bs-toggle="collapse" data-bs-target="#faq-item-3-6" aria-expanded="false">
-                                            <i class="flaticon-slider"></i> Children Playland
-                                        </h6>
-                                        <div id="faq-item-3-6" class="collapse" data-bs-parent="#accordion_3">
-                                            <div class="card-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--  -->
-                                </div>                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- NEIGHBOUR AREA END -->
+   
 
     <!-- CATEGORY AREA START -->
-    <div class="ltn__category-area ltn__product-gutter section-bg-1--- pt-115 pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">Our Aminities</h6>
-                        <h1 class="section-title">Building Aminities</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row ltn__category-slider-active--- slick-arrow-1 justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div class="ltn__category-item ltn__category-item-5 ltn__category-item-5-2 text-center---">
-                        <a href="shop.html">
-                            <span class="category-icon"><i class="flaticon-car"></i></span>
-                            <span class="category-number">01</span>
-                            <span class="category-title">Parking Space</span>
-                            <span class="category-brief">
-                                Enimad minim veniam quis no exercitation ullamco lab
-                            </span>
-                            <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div class="ltn__category-item ltn__category-item-5 ltn__category-item-5-2 text-center---">
-                        <a href="shop.html">
-                            <span class="category-icon"><i class="flaticon-swimming"></i></span>
-                            <span class="category-number">02</span>
-                            <span class="category-title">Swimming Pool</span>
-                            <span class="category-brief">
-                                Enimad minim veniam quis no exercitation ullamco lab
-                            </span>
-                            <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div class="ltn__category-item ltn__category-item-5 ltn__category-item-5-2 text-center---">
-                        <a href="shop.html">
-                            <span class="category-icon"><i class="flaticon-secure-shield"></i></span>
-                            <span class="category-number">03</span>
-                            <span class="category-title">Private Security</span>
-                            <span class="category-brief">
-                                Enimad minim veniam quis no exercitation ullamco lab
-                            </span>
-                            <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div class="ltn__category-item ltn__category-item-5 ltn__category-item-5-2 text-center---">
-                        <a href="shop.html">
-                            <span class="category-icon"><i class="flaticon-stethoscope"></i></span>
-                            <span class="category-number">04</span>
-                            <span class="category-title">Medical Center</span>
-                            <span class="category-brief">
-                                Enimad minim veniam quis no exercitation ullamco lab
-                            </span>
-                            <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div class="ltn__category-item ltn__category-item-5 ltn__category-item-5-2 text-center---">
-                        <a href="shop.html">
-                            <span class="category-icon"><i class="flaticon-book"></i></span>
-                            <span class="category-number">05</span>
-                            <span class="category-title">Library Area</span>
-                            <span class="category-brief">
-                                Enimad minim veniam quis no exercitation ullamco lab
-                            </span>
-                            <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div class="ltn__category-item ltn__category-item-5 ltn__category-item-5-2 text-center---">
-                        <a href="shop.html">
-                            <span class="category-icon"><i class="flaticon-bed-1"></i></span>
-                            <span class="category-number">06</span>
-                            <span class="category-title">King Size Beds</span>
-                            <span class="category-brief">
-                                Enimad minim veniam quis no exercitation ullamco lab
-                            </span>
-                            <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div class="ltn__category-item ltn__category-item-5 ltn__category-item-5-2 text-center---">
-                        <a href="shop.html">
-                            <span class="category-icon"><i class="flaticon-home-2"></i></span>
-                            <span class="category-number">07</span>
-                            <span class="category-title">Smart Homes</span>
-                            <span class="category-brief">
-                                Enimad minim veniam quis no exercitation ullamco lab
-                            </span>
-                            <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                    <div class="ltn__category-item ltn__category-item-5 ltn__category-item-5-2 text-center---">
-                        <a href="shop.html">
-                            <span class="category-icon"><i class="flaticon-slider"></i></span>
-                            <span class="category-number">08</span>
-                            <span class="category-title">Kid’s Playland</span>
-                            <span class="category-brief">
-                                Enimad minim veniam quis no exercitation ullamco lab
-                            </span>
-                            <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- CATEGORY AREA END -->
+    
 
     <!-- TESTIMONIAL AREA START (testimonial-8) -->
     <div class="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-65" data-bs-bg="img/bg/23.jpg">
@@ -1659,9 +840,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2--- text-center---">
-                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">Client,s Testimonial</h6>
-                        <h1 class="section-title white-color">See What,s Our Client <br>
-                            Says About Us</h1>
+                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">Clients Testimonials</h6>
+                        <h1 class="section-title white-color">See What Our Clients <br>
+                            Say About Us</h1>
                     </div>
                 </div>
             </div>
@@ -1672,11 +853,11 @@
                             <div class="ltn__testimoni-author-ratting">
                                 <div class="ltn__testimoni-info-inner">
                                     <div class="ltn__testimoni-img">
-                                        <img src="img/testimonial/1.jpg" alt="#">
+                                        <img src="img/testimonial/female-avatar.webp" alt="#">
                                     </div>
                                     <div class="ltn__testimoni-name-designation">
-                                        <h5>Jacob William</h5>
-                                        <label>Selling Agents</label>
+                                        <h5>Mrs. Sarah Adeola</h5>
+                                        <label></label>
                                     </div>
                                 </div>
                                 <div class="ltn__testimoni-rating">
@@ -1692,12 +873,9 @@
                                 </div>
                             </div>
                             <p> 
-                                Precious ipsum dolor sit amet
-                                consectetur adipisicing elit, sed dos
-                                mod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad min
-                                veniam, quis nostrud Precious ips
-                                um dolor sit amet, consecte</p>
+                            Giftem Global Properties is truly exceptional! From start to finish, they provided me with transparent guidance and personalized support.
+                             The entire process was seamless, and I feel secure knowing I’ve invested in a 
+                             reliable and well-managed estate</p>
                         </div>
                     </div>
                 </div>
@@ -1707,11 +885,11 @@
                             <div class="ltn__testimoni-author-ratting">
                                 <div class="ltn__testimoni-info-inner">
                                     <div class="ltn__testimoni-img">
-                                        <img src="img/testimonial/2.jpg" alt="#">
+                                        <img src="img/testimonial/male-avatar.png" alt="#">
                                     </div>
                                     <div class="ltn__testimoni-name-designation">
-                                        <h5>Kelian Anderson</h5>
-                                        <label>Selling Agents</label>
+                                        <h5>Mr. Tunde Olayinka</h5>
+                                        <label></label>
                                     </div>
                                 </div>
                                 <div class="ltn__testimoni-rating">
@@ -1727,12 +905,11 @@
                                 </div>
                             </div>
                             <p> 
-                                Precious ipsum dolor sit amet
-                                consectetur adipisicing elit, sed dos
-                                mod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad min
-                                veniam, quis nostrud Precious ips
-                                um dolor sit amet, consecte</p>
+                            Working with Giftem Global Properties has been an absolute pleasure.
+                             They are knowledgeable, trustworthy, and always prioritize customer needs. 
+                             I now own a piece of land in Ibadan, 
+                            and I’m excited to recommend Giftem to friends looking for genuine real 
+                            estate opportunities."  </p>
                         </div>
                     </div>
                 </div>
@@ -1742,11 +919,11 @@
                             <div class="ltn__testimoni-author-ratting">
                                 <div class="ltn__testimoni-info-inner">
                                     <div class="ltn__testimoni-img">
-                                        <img src="img/testimonial/3.jpg" alt="#">
+                                        <img src="img/testimonial/female-avatar.webp" alt="#">
                                     </div>
                                     <div class="ltn__testimoni-name-designation">
-                                        <h5>Adam Joseph</h5>
-                                        <label>Selling Agents</label>
+                                        <h5>Ms. Aisha Ogunbanjo</h5>
+                                        <label></label>
                                     </div>
                                 </div>
                                 <div class="ltn__testimoni-rating">
@@ -1762,16 +939,16 @@
                                 </div>
                             </div>
                             <p> 
-                                Precious ipsum dolor sit amet
-                                consectetur adipisicing elit, sed dos
-                                mod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad min
-                                veniam, quis nostrud Precious ips
-                                um dolor sit amet, consecte</p>
+                            I couldn’t have asked for a better experience.
+                             Giftem went above and beyond to make sure I found the perfect property that fit my needs.
+                              Their commitment to quality and client satisfaction is unmatched.
+                               Investing with Giftem has been one of the best decisions I’ve made."  
+
+</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <!--<div class="col-lg-4">
                     <div class="ltn__testimonial-item ltn__testimonial-item-7 ltn__testimonial-item-8">
                         <div class="ltn__testimoni-info">
                             <div class="ltn__testimoni-author-ratting">
@@ -1780,8 +957,8 @@
                                         <img src="img/testimonial/4.jpg" alt="#">
                                     </div>
                                     <div class="ltn__testimoni-name-designation">
-                                        <h5>James Carter</h5>
-                                        <label>Selling Agents</label>
+                                        <h5></h5>
+                                        <label></label>
                                     </div>
                                 </div>
                                 <div class="ltn__testimoni-rating">
@@ -1805,7 +982,7 @@
                                 um dolor sit amet, consecte</p>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!--  -->
             </div>
         </div>
@@ -1818,8 +995,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">News & Blogs</h6>
-                        <h1 class="section-title">Leatest News Feeds</h1>
+                        <h6 class="section-subtitle section-subtitle-2--- ltn__secondary-color">Blog</h6>
+                        <h1 class="section-title">Latest Posts</h1>
                     </div>
                 </div>
             </div>
@@ -1828,7 +1005,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="img/blog/1.jpg" alt="#"></a>
+                            <a href="#"><img src="img/blog/1.jpg" alt="#"></a>
                         </div>
                         <div class="ltn__blog-brief">
                             <div class="ltn__blog-meta">
@@ -1841,56 +1018,26 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">10 Brilliant Ways To Decorate Your Home</a></h3>
+                            <h3 class="ltn__blog-title"><a href="#">10 Brilliant Ways To Decorate Your Home</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2021</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2024</li>
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
+                                    <a href="#">Read more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
                 <!-- Blog Item -->
                 <div class="col-lg-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="img/blog/2.jpg" alt="#"></a>
-                        </div>
-                        <div class="ltn__blog-brief">
-                            <div class="ltn__blog-meta">
-                                <ul>
-                                    <li class="ltn__blog-author">
-                                        <a href="#"><i class="far fa-user"></i>by: Admin</a>
-                                    </li>
-                                    <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Interior</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">The Most Inspiring Interior Design Of 2021</a></h3>
-                            <div class="ltn__blog-meta-btn">
-                                <div class="ltn__blog-meta">
-                                    <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>July 23, 2021</li>
-                                    </ul>
-                                </div>
-                                <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Item -->
-                <div class="col-lg-12">
-                    <div class="ltn__blog-item ltn__blog-item-3">
-                        <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="img/blog/3.jpg" alt="#"></a>
+                            <a href="#"><img src="img/blog/3.jpg" alt="#"></a>
                         </div>
                         <div class="ltn__blog-brief">
                             <div class="ltn__blog-meta">
@@ -1903,56 +1050,26 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">Recent Commercial Real Estate Transactions</a></h3>
+                            <h3 class="ltn__blog-title"><a href="#">Recent Commercial Real Estate Transactions</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>May 22, 2021</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>May 22, 2024</li>
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
+                                    <a href="#">Read more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+               
                 <!-- Blog Item -->
                 <div class="col-lg-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="img/blog/4.jpg" alt="#"></a>
-                        </div>
-                        <div class="ltn__blog-brief">
-                            <div class="ltn__blog-meta">
-                                <ul>
-                                    <li class="ltn__blog-author">
-                                        <a href="#"><i class="far fa-user"></i>by: Admin</a>
-                                    </li>
-                                    <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Room</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">Renovating a Living Room? Experts Share Their Secrets</a></h3>
-                            <div class="ltn__blog-meta-btn">
-                                <div class="ltn__blog-meta">
-                                    <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2021</li>
-                                    </ul>
-                                </div>
-                                <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Item -->
-                <div class="col-lg-12">
-                    <div class="ltn__blog-item ltn__blog-item-3">
-                        <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="img/blog/5.jpg" alt="#"></a>
+                            <a href="#"><img src="img/blog/5.jpg" alt="#"></a>
                         </div>
                         <div class="ltn__blog-brief">
                             <div class="ltn__blog-meta">
@@ -1965,15 +1082,15 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">7 home trends that will shape your house in 2021</a></h3>
+                            <h3 class="ltn__blog-title"><a href="#">7 home trends that will shape your house in 2024</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2021</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2024</li>
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
+                                    <a href="#">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -1996,7 +1113,7 @@
                             <p>We help you make the dream of new house a reality</p>
                         </div>
                         <div class="btn-wrapper">
-                            <a class="btn btn-effect-3 btn-white" href="contact.html">Explore Properties <i class="icon-next"></i></a>
+                            <a class="btn btn-effect-3 btn-white" href="contact-us.php">Explore Properties <i class="icon-next"></i></a>
                         </div>
                     </div>
                 </div>
@@ -2014,10 +1131,11 @@
                         <div class="footer-widget footer-about-widget">
                             <div class="footer-logo">
                                 <div class="site-logo">
-                                    <img src="img/logo-2.png" alt="Logo">
+                                    <img src="img/logo.png" alt="Logo">
                                 </div>
                             </div>
-                            <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
+                            <p>We redefine real estate by creating secure, modern,
+                                 and well-planned estates for individuals and families. </p>
                             <div class="footer-address">
                                 <ul>
                                     <li>
@@ -2025,7 +1143,7 @@
                                             <i class="icon-placeholder"></i>
                                         </div>
                                         <div class="footer-address-info">
-                                            <p>Brooklyn, New York, United States</p>
+                                            <p>Suboj Oil & Gas Premises, Opposite Polo Club, Eleyele Road Ibadan</p>
                                         </div>
                                     </li>
                                     <li>
@@ -2033,7 +1151,7 @@
                                             <i class="icon-call"></i>
                                         </div>
                                         <div class="footer-address-info">
-                                            <p><a href="tel:+0123-456789">+0123-456789</a></p>
+                                            <p><a href="tel:+0123-456789">0802 351 0670, 0806 294 9148</a></p>
                                         </div>
                                     </li>
                                     <li>
@@ -2041,17 +1159,20 @@
                                             <i class="icon-mail"></i>
                                         </div>
                                         <div class="footer-address-info">
-                                            <p><a href="mailto:example@example.com">example@example.com</a></p>
+                                            <p><a href="mailto:info@giftemglobals.com">info@giftemglobals.com
+                                            </a></p>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                             <div class="ltn__social-media mt-20">
                                 <ul>
-                                    <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
-                                    <li><a href="#" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://web.facebook.com/giftemproperties/?_rdc=1&_rdr#" 
+                                    target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.instagram.com/giftem_globalproperties/" 
+                                    target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.youtube.com/@GIFTEMGLOBALS" 
+                                    target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2061,12 +1182,11 @@
                             <h4 class="footer-title">Company</h4>
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="shop.html">All Products</a></li>
-                                    <li><a href="locations.html">Locations Map</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="contact.html">Contact us</a></li>
+                                    <li><a href="about.php">About</a></li>
+                                    <li><a href="https://giftemglobal.com/blog">Blog</a></li>
+                                    <li><a href="properties.php">Properties</a></li>
+                                  
+                                    <li><a href="contact-us.php">Contact us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2076,12 +1196,11 @@
                             <h4 class="footer-title">Services</h4>
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="order-tracking.html">Order tracking</a></li>
-                                    <li><a href="wishlist.html">Wish List</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="account.html">My account</a></li>
-                                    <li><a href="about.html">Terms & Conditions</a></li>
-                                    <li><a href="about.html">Promotional Offers</a></li>
+                                    <li><a href="estate-development.php">Estate Development</a></li>
+                                    <li><a href="property-consultation.php">Property Consultation</a></li>
+                                    <li><a href="investment-opportunities.php">Investent Opportunities</a></li>
+                                    <li><a href="land-titles.php">Land Titles</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -2091,10 +1210,8 @@
                             <h4 class="footer-title">Customer Care</h4>
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="account.html">My account</a></li>
-                                    <li><a href="wishlist.html">Wish List</a></li>
-                                    <li><a href="order-tracking.html">Order tracking</a></li>
+                                 
+        
                                     <li><a href="faq.html">FAQ</a></li>
                                     <li><a href="contact.html">Contact us</a></li>
                                 </ul>
@@ -2113,8 +1230,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <h5 class="mt-30">We Accept</h5>
-                            <img src="img/icons/payment-4.png" alt="Payment Image">
+                           
                         </div>
                     </div>
                 </div>
@@ -2125,16 +1241,18 @@
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="ltn__copyright-design clearfix">
-                            <p>All Rights Reserved @ Company <span class="current-year"></span></p>
+                            <p>All Rights Reserved @ Giftems Global Properties and Investment Limited | 
+                                <span class="current-year"></span></p>
                         </div>
                     </div>
                     <div class="col-md-6 col-12 align-self-center">
                         <div class="ltn__copyright-menu text-end">
-                            <ul>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Claim</a></li>
-                                <li><a href="#">Privacy & Policy</a></li>
-                            </ul>
+                        <span>Made with</span>
+                            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+    </svg>
+    <span>by <a href="https://github.com/teelake/" target="_blank">Téelake</a></span>
+                           
                         </div>
                     </div>
                 </div>
@@ -2266,7 +1384,7 @@
                                             <img src="img/product/1.png" alt="#">
                                         </div>
                                          <div class="modal-product-info">
-                                            <h5><a href="product-details.html">3 Rooms Manhattan</a></h5>
+                                            <h5><a href="#">3 Rooms Manhattan</a></h5>
                                             <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Cart</p>
                                             <div class="btn-wrapper">
                                                 <a href="cart.html" class="theme-btn-1 btn btn-effect-1">View Cart</a>
@@ -2310,7 +1428,7 @@
                                             <img src="img/product/7.png" alt="#">
                                         </div>
                                          <div class="modal-product-info">
-                                            <h5><a href="product-details.html">3 Rooms Manhattan</a></h5>
+                                            <h5><a href="#">3 Rooms Manhattan</a></h5>
                                             <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Wishlist</p>
                                             <div class="btn-wrapper">
                                                 <a href="wishlist.html" class="theme-btn-1 btn btn-effect-1">View Wishlist</a>
