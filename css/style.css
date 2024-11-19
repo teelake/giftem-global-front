@@ -211,10 +211,10 @@ font-family: 'Poppins', sans-serif;
   /* Darken */
   --ltn__primary-color-3: #133236;
   /* Lighten */
-  --ltn__secondary-color: #FF5A3C;
-  --ltn__secondary-color-2: #cb3421;
+  --ltn__secondary-color: #f90c0e;
+  --ltn__secondary-color-2: #f90c0e;
   /* Darken */
-  --ltn__secondary-color-3: #fb412a;
+  --ltn__secondary-color-3: #f90c0e;
   /* Lighten */
   --ltn__heading-color: #071c1f;
   --ltn__paragraph-color: #5C727D;
@@ -252,7 +252,7 @@ font-family: 'Poppins', sans-serif;
   /* Black */
   --border-color-3: #5C617F;
   /* Black */
-  --border-color-4: #eb6954;
+  --border-color-4: #f90c0e;
   /* Red */
   --border-color-5: #bc3928;
   /* Red */
