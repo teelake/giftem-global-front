@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/giftemgl/public_html/beta
+    - /bin/cp -R * $DEPLOYPATH/
