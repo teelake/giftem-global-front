@@ -68,7 +68,7 @@
                             
                             <div class="ltn__video-img ltn__animation-pulse1">
                                 <img src="img/others/8.png" alt="video popup bg image">
-                                <a class="ltn__video-icon-2 ltn__video-icon-2-border---" href="https://www.youtube.com/embed/X7R-q9rsrtU?autoplay=1&amp;showinfo=0"  data-rel="lightcase:myCollection">
+                                <a class="ltn__video-icon-2 ltn__video-icon-2-border---" href="https://www.youtube.com/watch?v=ZtCOszBq9Qc"  data-rel="lightcase:myCollection">
                                     <i class="fa fa-play"></i>
                                 </a>
                             </div>
