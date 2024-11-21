@@ -226,7 +226,7 @@ font-family: 'Poppins', sans-serif;
   --ltn__color-3: #A3BCC0;
   --ltn__color-4: #84A2A6;
   --ltn__color-5: #5C727D;
-  --ltn__color-6: #F5DFDC;
+  --ltn__color-6: #f90c0e;
   /* Gradient Colors */
   --gradient-color-1: linear-gradient(90deg, rgba(242,139,194,1) 0%, rgba(216,177,242,1) 50%);
   --gradient-color-2: linear-gradient(to top, rgba(7,28,31,0) 0%, rgba(7,28,31,1) 90%);
