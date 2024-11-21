@@ -365,7 +365,7 @@
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
                             <!-- <span><i class="flaticon-deal-1"></i></span> -->
-                            <img src="img/icons/icon-img/23.png" alt="#" width="85">
+                            <img src="img/icons/icon-img/22.png" alt="#" width="85">
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">Investment Opportunities</a></h3>
