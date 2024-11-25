@@ -926,12 +926,15 @@
                             </div>
                             <div class="ltn__social-media mt-20">
                                 <ul>
-                                    <li><a href="https://web.facebook.com/giftemproperties/?_rdc=1&_rdr#" 
+                                    <li><a href="https://web.facebook.com/profile.php?id=61560077551466&_rdc=1&_rdr#" 
                                     target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="https://www.instagram.com/giftem_globalproperties/" 
                                     target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
                                     <li><a href="https://www.youtube.com/@GIFTEMGLOBALS" 
                                     target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+
+                                    <li><a href="https://wa.me/2348023510670" 
+                                    target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
                                 </ul>
                             </div>
                         </div>

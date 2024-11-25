@@ -63,15 +63,12 @@
             <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="about-us-img-wrap about-img-left">
-                        <img src="img/others/13.png" alt="About Us Image">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/ZtCOszBq9Qc?si=c1iEAzLU6ib0IEwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
                         <div class="about-us-img-info about-us-img-info-2 about-us-img-info-3">
                             
-                            <div class="ltn__video-img ltn__animation-pulse1">
-                                <img src="img/others/8.png" alt="video popup bg image">
-                                <a class="ltn__video-icon-2 ltn__video-icon-2-border---" href="https://www.youtube.com/embed/ZtCOszBq9Qc?si=jSAn5j1WQKBdfzHG?autoplay=1&amp;showinfo=0"  data-rel="lightcase:myCollection">
-                                    <i class="fa fa-play"></i>
-                                </a>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

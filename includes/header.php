@@ -113,7 +113,7 @@
             
             <div class="ltn__social-media-2">
                 <ul>
-                    <li><a href="https://web.facebook.com/giftemproperties/?_rdc=1&_rdr#"
+                    <li><a href="https://web.facebook.com/profile.php?id=61560077551466&_rdc=1&_rdr#"
                      title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                     <!--<li><a href="" title="Twitter"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>-->
@@ -122,6 +122,9 @@
 
                     <li><a href="https://www.youtube.com/@GIFTEMGLOBALS" 
                     target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+
+                    <li><a href="https://wa.me/2348023510670" 
+                                    target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
                 </ul>
             </div>
         </div>
