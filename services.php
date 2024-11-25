@@ -47,7 +47,7 @@
                         <h1 class="page-title text-white">What We Do</h1>
                         <div class="ltn__breadcrumb-list text-white">
                             <ul>
-                                <li><a href="index.html"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
+                                <li><a href="index.php"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
                                 <li class="ltn__secondary-color">Services</li>
                             </ul>
                         </div>
@@ -77,7 +77,7 @@
                 <div class="col-lg-6 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
-                        <img src="img/icons/icon-img/estate-dev.png"/>
+                        <i class="fa fa-building"></i>
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">Exclusive Estates Development
@@ -95,7 +95,7 @@
                 <div class="col-lg-6 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
-                        <img src="img/icons/icon-img/property-consultancy.png" alt="#"> 
+                        <i class="fa fa-user-tie"></i>
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">
@@ -116,7 +116,7 @@
                 <div class="col-lg-6 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
-                            <img src="img/icons/icon-img/22.png"/>
+                        <i class="fa fa-chart-line"></i>
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">Investment Opportunities</a></h3>
@@ -137,7 +137,7 @@
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
                             
-                            <img src="img/icons/icon-img/21.png" alt="#"> 
+                        <i class="fa fa-shield-alt"></i>
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">Secured Land Titles</a></h3>

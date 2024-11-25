@@ -328,7 +328,7 @@
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
                             <!-- <span><i class="flaticon-house"></i></span> -->
-                            <img src="img/icons/icon-img/estate-dev.png" alt="#" width="85" height="">
+                            <i class="fa fa-building"></i>
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">Exclusive Estates Development</a></h3>
@@ -346,7 +346,7 @@
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 active">
                         <div class="ltn__feature-icon">
                             <!-- <span><i class="flaticon-house-3"></i></span> -->
-                            <img src="img/icons/icon-img/property-consultancy.png" alt="#" width="85">
+                            <i class="fa fa-user-tie"></i>
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">Personalized Property Consultation  </a></h3>
@@ -365,7 +365,7 @@
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
                             <!-- <span><i class="flaticon-deal-1"></i></span> -->
-                            <img src="img/icons/icon-img/22.png" alt="#" width="85">
+                            <i class="fa fa-chart-line"></i>
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">Investment Opportunities</a></h3>
@@ -385,7 +385,7 @@
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
                             <!-- <span><i class="flaticon-deal-1"></i></span> -->
-                            <img src="img/icons/icon-img/23.png" alt="#" width="85">
+                            <i class="fa fa-shield-alt"></i>
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">Secured Land Titles </a></h3>
