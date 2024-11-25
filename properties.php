@@ -74,9 +74,9 @@
                 <div class="ltn__gallery-item filter_category_3 col-md-4 col-sm-6 col-12">
                     <div class="ltn__gallery-item-inner">
                         <div class="ltn__gallery-item-img">
-                           
+                        <a href="giftem-sunset-estate.php">
                                 <img src="img/gallery/Giftem Sunset_Introducing-2.jpg" alt="Image">
-                               
+                               </a>
                         </div>
                         <div class="ltn__gallery-item-info">
                             <h4><a href="giftem-sunset-estate.php">Giftem Sunset Estate </a></h4>
@@ -88,10 +88,10 @@
                 <div class="ltn__gallery-item filter_category_2 col-md-4 col-sm-6 col-12">
                     <div class="ltn__gallery-item-inner">
                         <div class="ltn__gallery-item-img">
-                       
+                        <a href="giftem-diamond-court-estate.php">
                                 <img src="img/gallery/Giftem-diamond.jpg" alt="Image">
                                
-                           
+                           </a>
                         </div>
                         <div class="ltn__gallery-item-info">
                             <h4><a href="giftem-diamond-court-estate.php">Giftem Diamond Court Estate </a></h4>
