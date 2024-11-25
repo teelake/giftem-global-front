@@ -124,6 +124,7 @@
 
         </div>
     </div>
+    </div>
     <!-- Gallery area end -->
 
     <!-- CALL TO ACTION START (call-to-action-4) -->
@@ -179,7 +180,7 @@
 
     <!-- FOOTER AREA START -->
     
-        <?php include_once ("includes/footer.php");?>
+        <?php include_once "includes/footer.php";?>
 
 </div>
 <!-- Body main wrapper end -->
