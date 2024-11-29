@@ -262,6 +262,7 @@ $teamInfo = $dashboard->getTeamInfo(); // Fetch the current data
                             <?php echo $testimonialsInfo['details1'];?></p>
                             <div class="ltn__testimoni-info-inner">
                                 <div class="ltn__testimoni-img">
+                                    
                                     <img src="img/testimonial/female-avatar.webp" alt="#">
                                 </div>
                                 <div class="ltn__testimoni-name-designation">
