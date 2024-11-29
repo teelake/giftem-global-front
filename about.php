@@ -222,11 +222,11 @@ $teamInfo = $dashboard->getTeamInfo(); // Fetch the current data
                 <div class="col-lg-4 col-sm-6">
                     <div class="ltn__team-item ltn__team-item-3---">
                         <div class="team-img">
-                            <img src="img/team/<?php echo $teamInfo['photo1'];?>">
+                            <img src="img/team/<?php echo $teamInfo['photo2'];?>">
                         </div>
                         <div class="team-info">
-                            <h4><a href="#"><?php echo $teamInfo['name1'];?></a></h4>
-                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role1'];?></h6>
+                            <h4><a href="#"><?php echo $teamInfo['name2'];?></a></h4>
+                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role2'];?></h6>
                             
                         </div>
                     </div>
@@ -240,33 +240,6 @@ $teamInfo = $dashboard->getTeamInfo(); // Fetch the current data
                 <div class="col-lg-4 col-sm-6">
                     <div class="ltn__team-item ltn__team-item-3---">
                         <div class="team-img">
-                            <img src="img/team/<?php echo $teamInfo['photo1'];?>">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="#"><?php echo $teamInfo['name1'];?></a></h4>
-                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role1'];?></h6>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
-                            <img src="img/team/<?php echo $teamInfo['photo2'];?>">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="#"><?php echo $teamInfo['name2'];?></a></h4>
-                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role2'];?></h6>
-                            
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
                             <img src="img/team/<?php echo $teamInfo['photo3'];?>">
                         </div>
                         <div class="team-info">
@@ -276,6 +249,22 @@ $teamInfo = $dashboard->getTeamInfo(); // Fetch the current data
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="ltn__team-item ltn__team-item-3---">
+                        <div class="team-img">
+                            <img src="img/team/<?php echo $teamInfo['photo4'];?>">
+                        </div>
+                        <div class="team-info">
+                            <h4><a href="#"><?php echo $teamInfo['name4'];?></a></h4>
+                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role4'];?></h6>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                
                
             </div>
         </div>
