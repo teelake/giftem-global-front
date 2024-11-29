@@ -192,74 +192,56 @@ $teamInfo = $dashboard->getTeamInfo(); // Fetch the current data
 
     <!-- TEAM AREA START (Team - 3) -->
     <div class="ltn__team-area pt-115 pb-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Our Team</h6>
-                        <h1 class="section-title">A team of dedicated professionals</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title-area ltn__section-title-2--- text-center">
+                    <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Our Team</h6>
+                    <h1 class="section-title">A team of dedicated professionals</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6">
+                <div class="ltn__team-item ltn__team-item-3---">
+                    <div class="team-img">
+                        <img src="img/team/<?php echo $teamInfo['photo1']; ?>">
+                    </div>
+                    <div class="team-info">
+                        <h4><a href="#"><?php echo $teamInfo['name1']; ?></a></h4>
+                        <h6 class="ltn__secondary-color"><?php echo $teamInfo['role1']; ?></h6>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
-                            <img src="img/team/<?php echo $teamInfo['photo1'];?>">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="#"><?php echo $teamInfo['name1'];?></a></h4>
-                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role1'];?></h6>
-                            
-                        </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="ltn__team-item ltn__team-item-3---">
+                    <div class="team-img">
+                        <img src="img/team/<?php echo $teamInfo['photo2']; ?>">
+                    </div>
+                    <div class="team-info">
+                        <h4><a href="#"><?php echo $teamInfo['name2']; ?></a></h4>
+                        <h6 class="ltn__secondary-color"><?php echo $teamInfo['role2']; ?></h6>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
-                            <img src="img/team/<?php echo $teamInfo['photo2'];?>">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="#"><?php echo $teamInfo['name2'];?></a></h4>
-                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role2'];?></h6>
-                            
-                        </div>
-                    </div>
-                </div>
-               
-            
-
-
-
-            
-                <div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
-                            <img src="img/team/<?php echo $teamInfo['photo3'];?>">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="#"><?php echo $teamInfo['name3'];?></a></h4>
-                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role3'];?></h6>
-                            
-                        </div>
-                    </div>
-                </div>
-              
-               
             </div>
 
-
-          
-                
-
-              
-                
-               
+            <div class="col-lg-4 col-sm-6">
+                <div class="ltn__team-item ltn__team-item-3---">
+                    <div class="team-img">
+                        <img src="img/team/<?php echo $teamInfo['photo3']; ?>">
+                    </div>
+                    <div class="team-info">
+                        <h4><a href="#"><?php echo $teamInfo['name3']; ?></a></h4>
+                        <h6 class="ltn__secondary-color"><?php echo $teamInfo['role3']; ?></h6>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- TEAM AREA END -->
+</div>
+<!-- TEAM AREA END -->
+
 
     <!-- TESTIMONIAL AREA START (testimonial-7) -->
     <div class="ltn__testimonial-area section-bg-1--- bg-image-top pt-120 pb-70" data-bs-bg="img/bg/20.jpg">
