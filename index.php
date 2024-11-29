@@ -1,3 +1,22 @@
+<?php
+require_once "backend/includes/dashboard.php";
+
+$dashboard = new Dashboard();
+
+$generalInfo = $dashboard->getGeneralInfo(); // Fetch the current data
+$about = $dashboard->getAbout(); // Fetch the current data
+$aboutInfo = $dashboard->getAboutInfo(); // Fetch the current data
+$valuesInfo = $dashboard->getValuesInfo(); // Fetch the current data
+$socialInfo = $dashboard->getSocialInfo(); // Fetch the current data
+$servicesInfo = $dashboard->getServicesInfo(); // Fetch the current data
+$propertyInfo = $dashboard->getPropertyInfo(); // Fetch the current data
+$testimonialsInfo = $dashboard->getTestimonialsInfo(); // Fetch the current data
+$slidingImages = $dashboard->getSlidingImages();
+
+
+
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -21,7 +40,6 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
     <!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
@@ -37,166 +55,95 @@
     <div class="ltn__utilize-overlay"></div>
 
     <!-- SLIDER AREA START (slider-11) -->
-    <div class="ltn__slider-area ltn__slider-11  ltn__slider-11-slide-item-count-show--- ltn__slider-11-pagination-count-show--- section-bg-1">
-        <div class="ltn__slider-11-inner">
-            <div class="ltn__slider-11-active">
-                <!-- slide-item -->
-                <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
-                    <div class="ltn__slide-item-inner">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 align-self-center">
-                                    <div class="slide-item-info">
-                                        <div class="slide-item-info-inner ltn__slide-animation">
-                                            
-                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Properties and Investment Company</h6>
-                                            <h1 class="slide-title animated ">Find Your<span> Dream </span><br><span> Land </span> In Ibadan</h1>
-                                            <div class="slide-brief animated">
-                                                <p>Discover affordable and premium landed properties tailored
-                                                     to your needs. Secure your future today!</p>
-                                            </div>
-                                            <div class="btn-wrapper animated">
-                                                <a href="contact.php" class="theme-btn-1 btn btn-effect-1">Contact Us</a>
-                                                
+    <div class="ltn__slider-area ltn__slider-11 ltn__slider-11-slide-item-count-show--- ltn__slider-11-pagination-count-show--- section-bg-1">
+    <div class="ltn__slider-11-inner">
+        <div class="ltn__slider-11-active">
+            <!-- Check if slidingImages is not empty -->
+            <?php if (!empty($slidingImages)) : ?>
+                <?php foreach ($slidingImages as $image) : ?>
+                    <!-- Slide Item -->
+                    <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
+                        <div class="ltn__slide-item-inner">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 align-self-center">
+                                        <div class="slide-item-info">
+                                            <div class="slide-item-info-inner ltn__slide-animation">
+                                                <h6 class="slide-sub-title white-color--- animated">
+                                                    <span><i class="fas fa-home"></i></span>
+                                                    <?= htmlspecialchars($image['intro_text']); ?>
+                                                </h6>
+                                                <h1 class="slide-title animated">
+                                                    <?= nl2br(htmlspecialchars($image['main_text'])); ?>
+                                                </h1>
+                                                <div class="slide-brief animated">
+                                                    <p><?= nl2br(htmlspecialchars($image['sub_text'])); ?></p>
+                                                </div>
+                                                <div class="btn-wrapper animated">
+                                                    <a href="contact.php" class="theme-btn-1 btn btn-effect-1">
+                                                        <?= htmlspecialchars($image['button_name']); ?>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="slide-item-img">
-                                        <img src="img/slider/landed-property.jpg" alt="#">
+                                        <div class="slide-item-img">
+                                            <img src="img/slider/<?= htmlspecialchars($image['image']); ?>" 
+                                                 alt="<?= htmlspecialchars($image['alt_text'] ?? 'Slider Image'); ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- slide-item -->
-                <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
-                    <div class="ltn__slide-item-inner">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 align-self-center">
-                                    <div class="slide-item-info">
-                                        <div class="slide-item-info-inner ltn__slide-animation">
-                                            
-                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Real Estate Company</h6>
-                                            <h1 class="slide-title animated ">Welcome to <br> Giftem Diamond Court Estate</h1>
-                                            <div class="slide-brief animated">
-                                                <p>Own a 500sqm plot now for just ₦15 million!
-                                                     Fully certified with a Certificate of Occupancy. Invest in luxury, invest in your future.</p>
-                                            </div>
-                                            <div class="btn-wrapper animated">
-                                                <a href="contact.php" class="theme-btn-1 btn btn-effect-1">Buy Now</a>
+                <?php endforeach; ?>
+            <?php else : ?>
+                <!-- No images fallback -->
+                <p>No images found for the slider.</p>
+            <?php endif; ?>
+        </div>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide-item-img">
-                                        <img src="img/slider/Giftem-Global.jpg" alt="#">
-                                    </div>
-                                </div>
+        <!-- Slider Arrows -->
+        <div class="ltn__slider-11-img-slide-arrow">
+            <div class="ltn__slider-11-img-slide-arrow-inner">
+                <div class="ltn__slider-11-img-slide-arrow-active">
+                    <?php if (!empty($slidingImages)) : ?>
+                        <?php foreach ($slidingImages as $image) : ?>
+                            <div class="image-slide-item">
+                                <img src="img/slider/<?= htmlspecialchars($image['image']); ?>" 
+                                     alt="<?= htmlspecialchars($image['alt_text'] ?? 'Sliding Image'); ?>">
                             </div>
-                        </div>
-                    </div>
+                        <?php endforeach; ?>
+                    <?php else : ?>
+                        <p>No images found for the slider.</p>
+                    <?php endif; ?>
                 </div>
-                <!-- slide-item -->
-                <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
-                    <div class="ltn__slide-item-inner">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 align-self-center">
-                                    <div class="slide-item-info">
-                                        <div class="slide-item-info-inner ltn__slide-animation">
-                                           
-                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span> Real Estate Agency</h6>
-                                            <h1 class="slide-title animated ">Experience Luxury at<br> Giftem Sunset Estate</h1>
-                                            <div class="slide-brief animated">
-                                                <p>Own a 450sqm plot at Jericho Extension, Ibadan, for ₦18 million.
-                                                     Premium location, unmatched value—your dream investment awaits!"</p>
-                                            </div>
-                                            <div class="btn-wrapper animated">
-                                            <a href="contact.php" class="theme-btn-1 btn btn-effect-1">Buy Now</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide-item-img">
-                                        <img src="img/slider/Giftem-Sunset_Introducing.jpg" alt="#">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- slide-item -->
-                <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
-                    <div class="ltn__slide-item-inner">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 align-self-center">
-                                    <div class="slide-item-info">
-                                        <div class="slide-item-info-inner ltn__slide-animation">
-                                           
-                                            <h6 class="slide-sub-title white-color--- animated"><span><i class="fas fa-home"></i></span>Properties and Investment Limited</h6>
-                                            <h1 class="slide-title animated ">Discover Your Perfect<br> Plot at Giftem Estate</h1>
-                                            <div class="slide-brief animated">
-                                                <p>Exclusive offers on prime properties.
-                                                Invest in your future today with secure, well-located plots
-                                                 at unbeatable prices!</p>
-                                            </div>
-                                            <div class="btn-wrapper animated">
-                                                <a href="contact.php" class="theme-btn-1 btn btn-effect-1">Buy Now</a>
-                                               
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide-item-img">
-                                        <img src="img/slider/giftem-about.jpg" alt="#">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- slider-4-pagination -->
-            <div class="ltn__slider-11-pagination-count">
-                <span class="count"></span>
-                <span class="total"></span>
-            </div>
-            <!-- slider-sticky-icon -->
-            <div class="slider-sticky-icon-2">
-                <ul>
-                    <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-            <!-- slider-4-img-slide-arrow -->
-            <div class="ltn__slider-11-img-slide-arrow">
-                <div class="ltn__slider-11-img-slide-arrow-inner">
-                    <div class="ltn__slider-11-img-slide-arrow-active">
-                        <div class="image-slide-item">
-                            <img src="img/slider/landed-property.jpg" alt="Flower Image">
-                        </div>
-                        <div class="image-slide-item">
-                            <img src="img/slider/Giftem-Global.jpg" alt="Flower Image">
-                        </div>
-                        <div class="image-slide-item">
-                            <img src="img/slider/Giftem-Sunset_Introducing.jpg" alt="Flower Image">
-                        </div>
-                        <div class="image-slide-item">
-                            <img src="img/slider/giftem-about.jpg" alt="Flower Image">
-                        </div>
-                    </div>
-                    <!-- slider-4-slide-item-count -->
-                    <div class="ltn__slider-11-slide-item-count">
-                        <span class="count"></span>
-                        <span class="total"></span>
-                    </div>
-                </div>
-            </div>
 
+                <!-- Slide Item Count -->
+                <div class="ltn__slider-11-slide-item-count">
+                    <span class="count">1</span>
+                    <span class="total"><?= count($slidingImages); ?></span>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- Pagination Count -->
+    <div class="ltn__slider-11-pagination-count">
+        <span class="count">1</span>
+        <span class="total"><?= count($slidingImages); ?></span>
+    </div>
+
+    <!-- Sticky Social Icons -->
+    <div class="slider-sticky-icon-2">
+        <ul>
+            <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+
     <!-- SLIDER AREA END -->
 
     <!-- ABOUT US AREA START -->
@@ -206,7 +153,7 @@
             <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="about-us-img-wrap about-img-left">
-                        <img src="img/others/giftem-corner.jpg" alt="About Us Image">
+                        <img src="img/others/<?php echo $about['photo'];?>" alt="About Us Image">
                         <div class="about-us-img-info about-us-img-info-2 about-us-img-info-3">
                             
                            <!-- <div class="ltn__video-img ltn__animation-pulse1">
@@ -223,38 +170,31 @@
                         <div class="section-title-area ltn__section-title-2--- mb-20">
                             <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">About Us</h6>
                             <h1 class="section-title">Who We Are<span>.</span></h1>
-                            <p>At Giftem Global Properties and Investment Limited, our mission is
-                            to redefine real estate by creating secure, modern, and well-planned estates
-                            for individuals and families.</p>
+                            <p><?php echo nl2br($about['about_1']);?></p>
                            
                         </div>
                         <h5>Our Core Values</h5>
                         <ul class="ltn__list-item-half clearfix">
                             <li>
                                 <i class=""></i>
-                                Integrity 
+                               <?php echo $valuesInfo['title1'];?>
                             </li>
                             <li>
                                 <i class=""></i>
-                                Drive  
+                                <?php echo $valuesInfo['title2'];?>
                             </li>
                             <li>
                                 <i class=""></i>
-                                Commitment 
+                                <?php echo $valuesInfo['title3'];?>
                             </li>
                             <li>
                                 <i class=""></i>
-                                Excellence 
+                                <?php echo $valuesInfo['title4'];?>
                             </li>
-                            <li>
-                                <i class=""></i>
-                                Professionalism 
-                            </li>
+                            
                         </ul>
                         <div class="ltn__callout bg-overlay-theme-05  mt-30">
-                            <p>As a dedicated real estate developer, we’re committed to delivering
-                                 high-quality properties that give people confidence in their investments
-                                  and a solid foundation for the future.  </p>
+                            <p><?php echo nl2br($about['about_2']);?>  </p>
                         </div>
                         <div class="btn-wrapper animated">
                             <a href="about.php" class="theme-btn-1 btn btn-effect-1">Read More</a>
@@ -274,8 +214,8 @@
                         <div class="counter-icon">
                             <i class="flaticon-select"></i>
                         </div>
-                        <h1><span class="counter">560</span><span class="counterUp-icon">+</span> </h1>
-                        <h6>Total Area Sq</h6>
+                        <h1><span class="counter"><?php echo $socialInfo['number1'];?></span><span class="counterUp-icon">+</span> </h1>
+                        <h6><?php echo $socialInfo['desc1'];?></h6>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 align-self-center">
@@ -283,8 +223,8 @@
                         <div class="counter-icon">
                             <i class="flaticon-office"></i>
                         </div>
-                        <h1><span class="counter">197</span><span class="counterUp-letter">K</span><span class="counterUp-icon">+</span> </h1>
-                        <h6>Apartments Sold</h6>
+                        <h1><span class="counter"><?php echo $socialInfo['number2'];?></span><span class="counterUp-letter">K</span><span class="counterUp-icon">+</span> </h1>
+                        <h6><?php echo $socialInfo['desc2'];?></h6>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 align-self-center">
@@ -292,8 +232,8 @@
                         <div class="counter-icon">
                             <i class="flaticon-excavator"></i>
                         </div>
-                        <h1><span class="counter">268</span><span class="counterUp-icon">+</span> </h1>
-                        <h6>Total Constructions</h6>
+                        <h1><span class="counter"><?php echo $socialInfo['number3'];?></span><span class="counterUp-icon">+</span> </h1>
+                        <h6><?php echo $socialInfo['desc3'];?></h6>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 align-self-center">
@@ -301,8 +241,8 @@
                         <div class="counter-icon">
                             <i class="flaticon-user"></i>
                         </div>
-                        <h1><span class="counter">340</span><span class="counterUp-icon">+</span> </h1>
-                        <h6>Clients</h6>
+                        <h1><span class="counter"><?php echo $socialInfo['number4'];?></span><span class="counterUp-icon">+</span> </h1>
+                        <h6><?php echo $socialInfo['desc4'];?></h6>
                     </div>
                 </div>
             </div>
@@ -331,12 +271,9 @@
                             <i class="fa fa-building"></i>
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="#">Exclusive Estates Development</a></h3>
+                            <h3><a href="#"><?php echo $servicesInfo['title1'];?></a></h3>
                             <p>
-                            We design and develop secure, well-planned estates with a focus on privacy, 
-                            convenience, and a sense of community. 
-                            Our gated estates offer peace of mind with controlled
-                             access and modern amenities, ensuring a high standard of living.    
+                            <?php echo nl2br($servicesInfo['description1']);?> 
                             </p>
                              <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a>-->
                         </div>
@@ -349,13 +286,9 @@
                             <i class="fa fa-user-tie"></i>
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="#">Personalized Property Consultation  </a></h3>
+                        <h3><a href="#"><?php echo $servicesInfo['title2'];?></a></h3>
                             <p>
-
-                            Navigating real estate doesn’t have to be complicated. 
-                            Our team provides personalized guidance to help you make
-                             informed decisions when buying, selling, or investing,
-                              so you can grow your assets with confidence.
+                            <?php echo nl2br($servicesInfo['description2']);?> 
                             </p>
                                                        <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a>-->
                         </div>
@@ -368,14 +301,10 @@
                             <i class="fa fa-chart-line"></i>
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="#">Investment Opportunities</a></h3>
+                        <h3><a href="#"><?php echo $servicesInfo['title3'];?></a></h3>
                             <p>
-                            We bring you promising investment opportunities, ensuring that each property
-                             offers high potential
-                             returns and long-term value.
-                             At Giftem, we believe in helping you secure assets that will appreciate
-                              and benefit you for years to come.
-                                </p>
+                            <?php echo nl2br($servicesInfo['description3']);?> 
+                            </p>
                                                       <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a>-->
                         </div>
                     </div>
@@ -388,11 +317,9 @@
                             <i class="fa fa-shield-alt"></i>
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="#">Secured Land Titles </a></h3>
+                        <h3><a href="#"><?php echo $servicesInfo['title4'];?></a></h3>
                             <p>
-                            We take pride in offering only genuine properties with verified titles,
-                             protecting your investments every step of the way.
-                             With Giftem, your land ownership is transparent and legally sound.
+                            <?php echo nl2br($servicesInfo['description4']);?> 
                             </p>
                            <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a>-->
                         </div>
@@ -524,7 +451,7 @@
                 <div class="col-lg-4">
                     <div class="ltn__search-by-place-item">
                         <div class="search-by-place-img">
-                            <a href="#"><img src="img/slider/Giftem Sunset_Introducing-2.jpg" alt="#"></a>
+                            <a href="#"><img src="img/gallery/<?php echo $propertyInfo['photo1'];?>" alt="#"></a>
                             <div class="search-by-place-badge">
                                 <ul>
                                     <li></li>
@@ -532,10 +459,10 @@
                             </div>
                         </div>
                         <div class="search-by-place-info">
-                            <h6><a href="#">Jericho Estate Extension</a></h6>
-                            <h4><a href="#">Giftem Sunset Estate</a></h4>
+                            <h6><a href="#"><?php echo $propertyInfo['location1'];?></a></h6>
+                            <h4><a href="#"><?php echo $propertyInfo['property1'];?></a></h4>
                             <div class="search-by-place-btn">
-                                <a href="#">View Property <i class="flaticon-right-arrow"></i></a>
+                               
                             </div>
                         </div>
                     </div>
@@ -543,7 +470,7 @@
                 <div class="col-lg-4">
                     <div class="ltn__search-by-place-item">
                         <div class="search-by-place-img">
-                            <a href="#"><img src="img/slider/Giftem New 1-5.jpg" alt="#"></a>
+                            <a href="#"><img src="img/gallery/<?php echo $propertyInfo['photo2'];?>" alt="#"></a>
                             <div class="search-by-place-badge">
                                 <ul>
                                     <li></li>
@@ -551,10 +478,10 @@
                             </div>
                         </div>
                         <div class="search-by-place-info">
-                            <h6><a href="#">Ologolo, Alafara</a></h6>
-                            <h4><a href="#">Diamond Court Estate </a></h4>
+                        <h6><a href="#"><?php echo $propertyInfo['location2'];?></a></h6>
+                        <h4><a href="#"><?php echo $propertyInfo['property2'];?></a></h4>
                             <div class="search-by-place-btn">
-                                <a href="#">View Property <i class="flaticon-right-arrow"></i></a>
+                                
                             </div>
                         </div>
                     </div>
@@ -562,7 +489,7 @@
                 <div class="col-lg-4">
                     <div class="ltn__search-by-place-item">
                         <div class="search-by-place-img">
-                            <a href="#"><img src="img/slider/landed-property.jpg" alt="#"></a>
+                            <a href="#"><img src="img/gallery/<?php echo $propertyInfo['photo3'];?>" alt="#"></a>
                             <div class="search-by-place-badge">
                                 <ul>
                                     <li></li>
@@ -570,10 +497,10 @@
                             </div>
                         </div>
                         <div class="search-by-place-info">
-                            <h6><a href="#">Ibadan</a></h6>
-                            <h4><a href="#">Landed Propery</a></h4>
+                        <h6><a href="#"><?php echo $propertyInfo['location3'];?></a></h6>
+                        <h4><a href="#"><?php echo $propertyInfo['property3'];?></a></h4>
                             <div class="search-by-place-btn">
-                                <a href="#">View Property <i class="flaticon-right-arrow"></i></a>
+                               
                             </div>
                         </div>
                     </div>
@@ -615,7 +542,8 @@
                                         <img src="img/testimonial/female-avatar.webp" alt="#">
                                     </div>
                                     <div class="ltn__testimoni-name-designation">
-                                        <h5>Mrs. Sarah Adeola</h5>
+                                        <h5><?php echo $testimonialsInfo['name1'];?>
+</h5>
                                         <label></label>
                                     </div>
                                 </div>
@@ -632,9 +560,7 @@
                                 </div>
                             </div>
                             <p> 
-                            Giftem Global Properties is truly exceptional! From start to finish, they provided me with transparent guidance and personalized support.
-                             The entire process was seamless, and I feel secure knowing I’ve invested in a 
-                             reliable and well-managed estate</p>
+                            <?php echo $testimonialsInfo['details1'];?></p>
                         </div>
                     </div>
                 </div>
@@ -647,7 +573,7 @@
                                         <img src="img/testimonial/male-avatar.png" alt="#">
                                     </div>
                                     <div class="ltn__testimoni-name-designation">
-                                        <h5>Mr. Tunde Olayinka</h5>
+                                        <h5><?php echo $testimonialsInfo['name2'];?></h5>
                                         <label></label>
                                     </div>
                                 </div>
@@ -664,11 +590,7 @@
                                 </div>
                             </div>
                             <p> 
-                            Working with Giftem Global Properties has been an absolute pleasure.
-                             They are knowledgeable, trustworthy, and always prioritize customer needs. 
-                             I now own a piece of land in Ibadan, 
-                            and I’m excited to recommend Giftem to friends looking for genuine real 
-                            estate opportunities."  </p>
+                            <?php echo $testimonialsInfo['details2'];?>  </p>
                         </div>
                     </div>
                 </div>
@@ -681,7 +603,7 @@
                                         <img src="img/testimonial/female-avatar.webp" alt="#">
                                     </div>
                                     <div class="ltn__testimoni-name-designation">
-                                        <h5>Ms. Aisha Ogunbanjo</h5>
+                                        <h5><?php echo $testimonialsInfo['name3'];?></h5>
                                         <label></label>
                                     </div>
                                 </div>
@@ -698,11 +620,7 @@
                                 </div>
                             </div>
                             <p> 
-                            I couldn’t have asked for a better experience.
-                             Giftem went above and beyond to make sure I found the perfect property that fit my needs.
-                              Their commitment to quality and client satisfaction is unmatched.
-                               Investing with Giftem has been one of the best decisions I’ve made."  
-
+                            <?php echo $testimonialsInfo['details3'];?>
 </p>
                         </div>
                     </div>
@@ -881,146 +799,7 @@
     </div>
     <!-- CALL TO ACTION END -->
 
-    <!-- FOOTER AREA START -->
-    <footer class="ltn__footer-area  ">
-        <div class="footer-top-area  section-bg-2 plr--5">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 col-sm-6 col-12">
-                        <div class="footer-widget footer-about-widget">
-                            <div class="footer-logo">
-                                <div class="site-logo">
-                                    <img src="img/logo.png" alt="Logo">
-                                </div>
-                            </div>
-                            <p>We redefine real estate by creating secure, modern,
-                                 and well-planned estates for individuals and families. </p>
-                            <div class="footer-address">
-                                <ul>
-                                    <li>
-                                        <div class="footer-address-icon">
-                                            <i class="icon-placeholder"></i>
-                                        </div>
-                                        <div class="footer-address-info">
-                                            <p>Suboj Oil & Gas Premises, Opposite Polo Club, Eleyele Road Ibadan</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-address-icon">
-                                            <i class="icon-call"></i>
-                                        </div>
-                                        <div class="footer-address-info">
-                                            <p><a href="tel:+0123-456789">0802 351 0670, 0806 294 9148</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-address-icon">
-                                            <i class="icon-mail"></i>
-                                        </div>
-                                        <div class="footer-address-info">
-                                            <p><a href="mailto:info@giftemglobals.com">info@giftemglobals.com
-                                            </a></p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="ltn__social-media mt-20">
-                                <ul>
-                                    <li><a href="https://web.facebook.com/profile.php?id=61560077551466&_rdc=1&_rdr#" 
-                                    target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.instagram.com/giftem_globalproperties/" 
-                                    target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="https://www.youtube.com/@GIFTEMGLOBALS" 
-                                    target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
-
-                                    <li><a href="https://wa.me/2348023510670" 
-                                    target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-sm-6 col-12">
-                        <div class="footer-widget footer-menu-widget clearfix">
-                            <h4 class="footer-title">Company</h4>
-                            <div class="footer-menu">
-                                <ul>
-                                    <li><a href="about.php">About</a></li>
-                                    <li><a href="https://giftemglobal.com/blog">Blog</a></li>
-                                    <li><a href="properties.php">Properties</a></li>
-                                  
-                                    <li><a href="contact.php">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-sm-6 col-12">
-                        <div class="footer-widget footer-menu-widget clearfix">
-                            <h4 class="footer-title">Services</h4>
-                            <div class="footer-menu">
-                                <ul>
-                                    <li><a href="estate-development.php">Estate Development</a></li>
-                                    <li><a href="property-consultation.php">Property Consultation</a></li>
-                                    <li><a href="investment-opportunities.php">Investent Opportunities</a></li>
-                                    <li><a href="land-titles.php">Land Titles</a></li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-sm-6 col-12">
-                        <div class="footer-widget footer-menu-widget clearfix">
-                            <h4 class="footer-title">Customer Care</h4>
-                            <div class="footer-menu">
-                                <ul>
-                                 
-        
-                                    <li><a href="faqs.php">FAQ</a></li>
-                                    <li><a href="contact.php">Contact us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-sm-12 col-12">
-                        <div class="footer-widget footer-newsletter-widget">
-                            <h4 class="footer-title">Newsletter</h4>
-                            <p>Subscribe to our weekly Newsletter and receive updates via email.</p>
-                            <div class="footer-newsletter">
-                                <form action="#">
-                                    <input type="email" name="email" placeholder="Email*">
-                                    <div class="btn-wrapper">
-                                        <button class="theme-btn-1 btn" type="submit"><i class="fas fa-location-arrow"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ltn__copyright-area ltn__copyright-2 section-bg-7  plr--5">
-            <div class="container-fluid ltn__border-top-2">
-                <div class="row">
-                    <div class="col-md-6 col-12">
-                        <div class="ltn__copyright-design clearfix">
-                            <p>All Rights Reserved @ Giftems Global Properties and Investment Limited | 
-                                <span class="current-year"></span></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 align-self-center">
-                        <div class="ltn__copyright-menu text-end">
-                        <span>Made with</span>
-                            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-    </svg>
-    <span>by <a href="https://github.com/teelake/" target="_blank">Téelake</a></span>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include_once ('includes/footer.php'); ?>
     <!-- FOOTER AREA END -->
 
     <!-- MODAL AREA START (Quick View Modal) -->

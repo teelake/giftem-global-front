@@ -19,7 +19,7 @@
                                             <i class="icon-placeholder"></i>
                                         </div>
                                         <div class="footer-address-info">
-                                            <p>Suboj Oil & Gas Premises, Opposite Polo Club, Eleyele Road Ibadan</p>
+                                            <p><?php echo $generalInfo['office_address'];?></p>
                                         </div>
                                     </li>
                                     <li>
@@ -27,7 +27,9 @@
                                             <i class="icon-call"></i>
                                         </div>
                                         <div class="footer-address-info">
-                                            <p><a href="tel:+0123-456789">0802 351 0670, 0806 294 9148</a></p>
+                                            <p><a href="#"><?php echo $generalInfo['phone_number_1'];?>,
+                                            <?php echo $generalInfo['phone_number_2'];?>
+                                        </a></p>
                                         </div>
                                     </li>
                                     <li>
@@ -35,7 +37,8 @@
                                             <i class="icon-mail"></i>
                                         </div>
                                         <div class="footer-address-info">
-                                            <p><a href="mailto:info@giftemglobals.com">info@giftemglobals.com
+                                            <p><a href="mailto:info@giftemglobals.com">
+                                            <?php echo $generalInfo['email'];?>
                                             </a></p>
                                         </div>
                                     </li>
@@ -43,13 +46,14 @@
                             </div>
                             <div class="ltn__social-media mt-20">
                                 <ul>
-                                    <li><a href="https://web.facebook.com/profile.php?id=61560077551466&_rdc=1&_rdr#" 
+                                    <li><a href="
+                                    <?php echo $generalInfo['facebook_link'];?>" 
                                     target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.instagram.com/giftem_globalproperties/" 
+                                    <li><a href="<?php echo $generalInfo['instagram_link'];?>" 
                                     target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="https://www.youtube.com/@GIFTEMGLOBALS" 
+                                    <li><a href="<?php echo $generalInfo['youtube_link'];?>" 
                                     target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
-                                    <li><a href="https://wa.me/2348023510670" 
+                                    <li><a href="<?php echo $generalInfo['whatsapp_link'];?>" 
                                     target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
                                 </ul>
                             </div>
@@ -123,15 +127,26 @@
                                 <span class="current-year"></span></p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-12 align-self-center">
-                        <div class="ltn__copyright-menu text-end">
+                    <div class="col-md-4 col-12 align-self-center">
+                    <div class="ltn__copyright-menu text-start">
+                            
                         <span>Made with</span>
                             <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
       <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
     </svg>
-    <span>by <a href="https://github.com/teelake/" target="_blank">Téelake</a></span>
+    <span>by <a href="https://github.com/teelake/" target="_blank">Téelake</a></span></a>
+                            <div>
+                    </div>
+                    <div class="col-md-2 col-12 align-self-center">
+                        
+                <a href="https://wa.me/2347066246499" target="_blank">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                  class="whatsapp-button whatsapp-button-sm whatsapp-button-md img-fluid" alt="WhatsApp">
+                </a>
+            </div>
                            
                         </div>
+
                     </div>
                 </div>
             </div>

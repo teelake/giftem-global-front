@@ -1,3 +1,16 @@
+<?php
+require_once "backend/includes/dashboard.php";
+
+$dashboard = new Dashboard();
+
+$generalInfo = $dashboard->getGeneralInfo(); // Fetch the current data
+$valuesInfo = $dashboard->getValuesInfo(); // Fetch the current data
+$aboutInfo = $dashboard->getAboutInfo(); // Fetch the current data
+$testimonialsInfo = $dashboard->getTestimonialsInfo(); // Fetch the current data
+$teamInfo = $dashboard->getTeamInfo(); // Fetch the current data
+
+?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -63,8 +76,7 @@
             <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="about-us-img-wrap about-img-left">
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/ZtCOszBq9Qc?si=c1iEAzLU6ib0IEwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <?php echo $aboutInfo['intro_video_url'];?>
 
                         <div class="about-us-img-info about-us-img-info-2 about-us-img-info-3">
                             
@@ -82,26 +94,18 @@
                                                     <h1 class="section-title">Who We Are
                                                     </h1>
                                                     <p>
-                                                    At Giftem Global Properties and Investment Limited,
-                                                     our mission is to redefine real estate by creating secure,
-                                                      modern, and well-planned estates
- for individuals and families. As a dedicated real estate developer, we’re committed to delivering
-  high-quality properties that give people confidence
- in their investments and a solid foundation for the future. 
+                                                    <?php echo nl2br($aboutInfo['who_we_are']);?>
 
 
                                                     </p>
 
-                                                    <h1 class="section-title">Our Philosophy
-                                                    
-                                                    </h1>
-                                                </div>
+                                                    <h1 class="section-title">Our Philosophy</h1>
                         
-                                                <p>
-                                                We believe property ownership should be a journey of trust and excitement.
-                                                 Our goal is to simplify and secure the property acquisition process,
-                                                ensuring each client experiences the satisfaction of a safe and rewarding investment.
+                                                <p class="">
+                                                <?php echo nl2br($aboutInfo['our_philosophy']);?>
+
                                                 </p>
+                                </div>
                                             </div>
                                         </div>
                  
@@ -127,11 +131,9 @@
                         <a href="#">
                             <span class="category-icon"><i class="fa fa-balance-scale"></i></span>
                             <span class="category-number">01</span>
-                            <span class="category-title">Integrity</span>
+                            <span class="category-title"><?php echo $valuesInfo['title1'];?></span>
                             <span class="category-brief">
-                            We believe in doing the right thing, every time.
-                            With every decision and interaction,
-                             we build trust by being honest, fair, and respectful toward our clients and partners. 
+                            <?php echo nl2br($valuesInfo['description1']);?>
 
                             </span>
                             <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
@@ -143,11 +145,9 @@
                         <a href="#">
                             <span class="category-icon"><i class="fa fa-heart"></i></span>
                             <span class="category-number">02</span>
-                            <span class="category-title">Drive</span>
+                            <span class="category-title"> <?php echo $valuesInfo['title2'];?></span>
                             <span class="category-brief">
-                            Our commitment goes beyond property development—it’s a
-                             passion that fuels us daily. We are inspired to exceed expectations,
-                              bringing energy and innovation to every project we undertake.
+                            <?php echo nl2br($valuesInfo['description2']);?>
 
                             </span>
                             <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
@@ -159,10 +159,9 @@
                         <a href="#">
                             <span class="category-icon"><i class="fa fa-handshake"></i></span>
                             <span class="category-number">03</span>
-                            <span class="category-title">Commitment</span>
+                            <span class="category-title"><?php echo $valuesInfo['title3'];?></span>
                             <span class="category-brief">
-                            Our clients’ goals are our goals. We approach every relationship
-                             with unwavering dedication, ensuring our clients feel supported every step of the way.
+                            <?php echo nl2br($valuesInfo['description3']);?>
 
                             </span>
                             <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
@@ -174,12 +173,9 @@
                         <a href="#">
                             <span class="category-icon"><i class="fa fa-award"></i></span>
                             <span class="category-number">04</span>
-                            <span class="category-title">Excellence</span>
+                            <span class="category-title"><?php echo $valuesInfo['title4'];?></span>
                             <span class="category-brief">
-                            Professionalism is at the heart of what we do.
-                             We maintain the highest standards in our work,
-                              treating each detail with care and respect to deliver
-                               a seamless and fulfilling experience.
+                            <?php echo nl2br($valuesInfo['description4']);?>
 
                             </span>
                             <span class="category-btn d-none"><i class="flaticon-right-arrow"></i></span>
@@ -209,51 +205,78 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="ltn__team-item ltn__team-item-3---">
                         <div class="team-img">
-                            <img src="img/team/ceo.jpg" alt="GIFT NNEOMA OKEKE ">
+                            <img src="img/team/<?php echo $teamInfo['photo1'];?>">
                         </div>
                         <div class="team-info">
-                            <h4><a href="team-details.html">Gift Nneoma Okeke</a></h4>
-                            <h6 class="ltn__secondary-color">CEO</h6>
+                            <h4><a href="#"><?php echo $teamInfo['name1'];?></a></h4>
+                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role1'];?></h6>
                             
                         </div>
                     </div>
                 </div>
-                <!--<div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
-                            <img src="img/team/2.jpg" alt="Image">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="team-details.html">Kelian Anderson</a></h4>
-                            <h6 class="ltn__secondary-color">Selling Agents</h6>
-                            <div class="ltn__social-media">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
+            </div>
+
+
+            <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-6">
                     <div class="ltn__team-item ltn__team-item-3---">
                         <div class="team-img">
-                            <img src="img/team/5.jpg" alt="Image">
+                            <img src="img/team/<?php echo $teamInfo['photo1'];?>">
                         </div>
                         <div class="team-info">
-                            <h4><a href="team-details.html">Miranda H. Halim</a></h4>
-                            <h6 class="ltn__secondary-color">Property Seller</h6>
-                            <div class="ltn__social-media">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
+                            <h4><a href="#"><?php echo $teamInfo['name1'];?></a></h4>
+                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role1'];?></h6>
+                            
                         </div>
                     </div>
-                </div>-->   
+                </div>
+               
+            </div>
+
+
+
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="ltn__team-item ltn__team-item-3---">
+                        <div class="team-img">
+                            <img src="img/team/<?php echo $teamInfo['photo1'];?>">
+                        </div>
+                        <div class="team-info">
+                            <h4><a href="#"><?php echo $teamInfo['name1'];?></a></h4>
+                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role1'];?></h6>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="ltn__team-item ltn__team-item-3---">
+                        <div class="team-img">
+                            <img src="img/team/<?php echo $teamInfo['photo2'];?>">
+                        </div>
+                        <div class="team-info">
+                            <h4><a href="#"><?php echo $teamInfo['name2'];?></a></h4>
+                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role2'];?></h6>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="ltn__team-item ltn__team-item-3---">
+                        <div class="team-img">
+                            <img src="img/team/<?php echo $teamInfo['photo3'];?>">
+                        </div>
+                        <div class="team-info">
+                            <h4><a href="#"><?php echo $teamInfo['name3'];?></a></h4>
+                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role3'];?></h6>
+                            
+                        </div>
+                    </div>
+                </div>
+               
             </div>
         </div>
     </div>
@@ -275,16 +298,13 @@
                     <div class="ltn__testimonial-item ltn__testimonial-item-7">
                         <div class="ltn__testimoni-info">
                             <p><i class="flaticon-left-quote-1"></i> 
-                            Giftem Global Properties is truly exceptional! From start to finish,
-                             they provided me with transparent guidance and personalized support.
-                             The entire process was seamless, and I feel secure knowing I’ve invested in a 
-                             reliable and well-managed estate</p>
+                            <?php echo $testimonialsInfo['details1'];?></p>
                             <div class="ltn__testimoni-info-inner">
                                 <div class="ltn__testimoni-img">
                                     <img src="img/testimonial/female-avatar.webp" alt="#">
                                 </div>
                                 <div class="ltn__testimoni-name-designation">
-                                    <h5>Mrs. Sarah Adeola</h5>
+                                    <h5><?php echo $testimonialsInfo['name1'];?></h5>
                                    
                                 </div>
                             </div>
@@ -296,17 +316,13 @@
                     <div class="ltn__testimonial-item ltn__testimonial-item-7">
                         <div class="ltn__testimoni-info">
                             <p><i class="flaticon-left-quote-1"></i> 
-                            Working with Giftem Global Properties has been an absolute pleasure.
-                             They are knowledgeable, trustworthy, and always prioritize customer needs. 
-                             I now own a piece of land in Ibadan, 
-                            and I’m excited to recommend Giftem to friends looking for genuine real 
-                            estate opportunities." </p>
+                            <?php echo $testimonialsInfo['details2'];?> </p>
                             <div class="ltn__testimoni-info-inner">
                                 <div class="ltn__testimoni-img">
                                     <img src="img/testimonial/male-avatar.png" alt="#">
                                 </div>
                                 <div class="ltn__testimoni-name-designation">
-                                    <h5>Mr. Tunde Olayinka</h5>
+                                    <h5><?php echo $testimonialsInfo['name2'];?></h5>
                                     <label></label>
                                 </div>
                             </div>
@@ -318,10 +334,7 @@
                         <div class="ltn__testimoni-info">
                             <p><i class="flaticon-left-quote-1"></i> 
 
-                            I couldn’t have asked for a better experience.
-                             Giftem went above and beyond to make sure I found the perfect property that fit my needs.
-                              Their commitment to quality and client satisfaction is unmatched.
-                               Investing with Giftem has been one of the best decisions I’ve made."  
+                            <?php echo $testimonialsInfo['details3'];?>
 
                         </p>
                             <div class="ltn__testimoni-info-inner">
@@ -329,7 +342,7 @@
                                     <img src="img/testimonial/female-avatar.webp" alt="#">
                                 </div>
                                 <div class="ltn__testimoni-name-designation">
-                                    <h5>Ms. Aisha Ogunbanjo</h5>
+                                    <h5><?php echo $testimonialsInfo['name3'];?></h5>
                                     <label></label>
                                 </div>
                             </div>

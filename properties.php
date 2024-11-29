@@ -1,4 +1,15 @@
 
+
+<?php
+require_once "backend/includes/dashboard.php";
+
+$dashboard = new Dashboard();
+
+$generalInfo = $dashboard->getGeneralInfo(); // Fetch the current data
+
+$propertyInfo = $dashboard->getPropertyInfo(); // Fetch the current data
+
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -75,12 +86,12 @@
                     <div class="ltn__gallery-item-inner">
                         <div class="ltn__gallery-item-img">
                         <a href="giftem-sunset-estate.php">
-                                <img src="img/gallery/Giftem Sunset_Introducing-2.jpg" alt="Image">
+                                <img src="img/gallery/<?php echo $propertyInfo['photo1'];?> " alt="Image">
                                </a>
                         </div>
                         <div class="ltn__gallery-item-info">
-                            <h4><a href="giftem-sunset-estate.php">Giftem Sunset Estate </a></h4>
-                            <p>Idi-Ishin, Jericho</p>
+                            <h4><a href="giftem-sunset-estate.php"><?php echo $propertyInfo['property1'];?> </a></h4>
+                            <p><?php echo $propertyInfo['location1'];?> </p>
                         </div>
                     </div>
                 </div>
@@ -89,13 +100,13 @@
                     <div class="ltn__gallery-item-inner">
                         <div class="ltn__gallery-item-img">
                         <a href="giftem-diamond-court-estate.php">
-                                <img src="img/gallery/Giftem-diamond.jpg" alt="Image">
+                                <img src="img/gallery/<?php echo $propertyInfo['photo2'];?>" alt="Image">
                                
                            </a>
                         </div>
                         <div class="ltn__gallery-item-info">
-                            <h4><a href="giftem-diamond-court-estate.php">Giftem Diamond Court Estate </a></h4>
-                            <p>Ologolo Alafara, Nihort Road, Ibadan.</p>
+                            <h4><a href="giftem-diamond-court-estate.php"><?php echo $propertyInfo['property2'];?>  </a></h4>
+                            <p><?php echo $propertyInfo['location2'];?> </p>
                         </div>
                     </div>
                 </div>

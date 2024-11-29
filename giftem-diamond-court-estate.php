@@ -144,7 +144,75 @@
 
                         
 
-                       
+                        <h4 class="title-2">Facilities</h4>
+                        <div class="property-detail-feature-list clearfix mb-45">                            
+                            <ul>
+                                <li>
+                                    <div class="property-detail-feature-list-item">
+                                        <i class="fa fa-faucet"></i>
+                                        <div>
+                                            <h6>Good Water Supply</h6>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="property-detail-feature-list-item">
+                                        <i class="fa fa-video"></i>
+                                        <div>
+                                            <h6>CCTV Camera</h6>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="property-detail-feature-list-item">
+                                        <i class="fa fa-wifi"></i>
+                                        <div>
+                                            <h6>Good Internet</h6>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="property-detail-feature-list-item">
+                                        <i class="flaticon-double-bed"></i>
+                                        <div>
+                                            <h6>Bedroom</h6>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="property-detail-feature-list-item">
+                                        <i class="fa fa-futbol"></i>
+                                        <div>
+                                            <h6>Recreational Center</h6>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="property-detail-feature-list-item">
+                                        <i class="fa fa-road"></i>
+                                        <div>
+                                            <h6>Good Roads</h6>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="property-detail-feature-list-item">
+                                        <i class="fa fa-bolt"></i>
+                                        <div>
+                                            <h6>Good Power Supply</h6>
+                                           
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                        </div>
                                          
                             </div>
                         </div>

@@ -1,3 +1,31 @@
+<?php
+session_start(); // Start the session for CSRF token management and error handling.
+require_once "backend/includes/dashboard.php";
+
+$dashboard = new Dashboard();
+$generalInfo = $dashboard->getGeneralInfo(); // Fetch the current data
+
+// Initialize variables
+$successMessage = '';
+$errorMessage = '';
+
+
+// Display success or error messages
+if (isset($_SESSION['successMessage'])) {
+    $successMessage= "<p style='color: green;'>{$_SESSION['successMessage']}</p>";
+    unset($_SESSION['successMessage']);
+}
+
+if (isset($_SESSION['errorMessage'])) {
+    $errorMessage= "<p style='color: red;'>{$_SESSION['errorMessage']}</p>";
+    unset($_SESSION['errorMessage']);
+}
+
+// Generate a new CSRF token
+$_SESSION['token'] = bin2hex(random_bytes(32));
+
+
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -66,7 +94,7 @@
                         <i class="fa fa-envelope"></i>
                         </div>
                         <h3>Email Address</h3>
-                        <p>info@giftemglobals.com
+                        <p>  <?php echo $generalInfo['email'];?>
                            </p>
                     </div>
                 </div>
@@ -76,7 +104,7 @@
                         <i class="fa fa-phone"></i>
                         </div>
                         <h3>Phone Number</h3>
-                        <p>0802 351 0670<br> 0806 294 9148</p>
+                        <?php echo $generalInfo['phone_number_1'];?><br><?php echo $generalInfo['phone_number_2'];?></p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -85,7 +113,7 @@
                         <i class="fa fa-map-marker"></i>
                         </div>
                         <h3>Office Address</h3>
-                        <p>Suboj Oil & Gas Premises, Opposite Polo Club, Eleyele Road Ibadan
+                        <p>  <?php echo $generalInfo['office_address'];?>
                             </p>
                     </div>
                 </div>
@@ -100,47 +128,53 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="ltn__form-box contact-form-box box-shadow white-bg">
+                    <?php if ($successMessage): ?>
+        <div class="alert alert-success"><?php echo $successMessage; ?></div>
+    <?php elseif ($errorMessage): ?>
+        <div class="alert alert-danger"><?php echo $errorMessage; ?></div>
+    <?php endif; ?>
                         <h4 class="title-2">Get A Quote</h4>
-                        <form id="contact-form" action="#" method="post">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="input-item input-item-name ltn__custom-icon">
-                                        <input type="text" name="name" placeholder="Enter your name" required minlength="2">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="input-item input-item-email ltn__custom-icon">
-                                        <input type="email" name="email" placeholder="Enter email address" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="input-item">
-                                        <select class="nice-select" required>
-                                        <option> Select Service Type</option>
-                                            <option value="Estate Development">Estate Development</option>
-                                            <option value="Property Consultation ">Property Consultation </option>
-                                            <option value="Investment Opportunities ">Investment Opportunities </option>
-                                            <option value="Land Titles">Land Titles</option>
-                                            <option value="Others">Others</option>
-                                           
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="input-item input-item-phone ltn__custom-icon">
-                                        <input type="text" name="phone" placeholder="Enter phone number" 
-                                        pattern="[0-9]{2}" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="input-item input-item-textarea ltn__custom-icon">
-                                <textarea name="message" placeholder="Enter message"></textarea>
-                            </div>
-                            <div class="btn-wrapper mt-0">
-                                <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Send</button>
-                            </div>
-                            <p class="form-messege mb-0 mt-20"></p>
-                        </form>
+                        
+                        <form action="process.php" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-item input-item-name ltn__custom-icon">
+                <input type="text" name="name" placeholder="Enter your name" required minlength="2">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="input-item input-item-email ltn__custom-icon">
+                <input type="email" name="email" placeholder="Enter email address" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="input-item">
+                <select class="nice-select"  name="service_type" required>
+                    <option value="">Select Service Type</option>
+                    <option value="Estate Development">Estate Development</option>
+                    <option value="Property Consultation">Property Consultation</option>
+                    <option value="Investment Opportunities">Investment Opportunities</option>
+                    <option value="Land Titles">Land Titles</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="input-item input-item-phone ltn__custom-icon">
+                <input type="text" name="phone" placeholder="Enter phone number" required>
+            </div>
+        </div>
+    </div>
+    <div class="input-item input-item-textarea ltn__custom-icon">
+        <textarea name="message" placeholder="Enter message" required></textarea>
+    </div>
+    <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
+    <div class="btn-wrapper mt-0">
+        <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Send</button>
+    </div>
+    <p class="form-messege mb-0 mt-20"></p>
+</form>
+
                     </div>
                 </div>
             </div>
@@ -151,10 +185,7 @@
     <!-- GOOGLE MAP AREA START -->
     <div class="google-map mb-120">
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31652.335298959537!2d3.824143410249321!3d7.405111454920261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d844ff5561b%3A0xb88f742b98b9f5e!2sGiftem%20Global%20Properties%20%26%20Investment%20Limited!5e0!3m2!1sen!2sng!4v1732203359794!5m2!1sen!2sng"
-         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       
-  
+    <?php echo $generalInfo['google_map_address'];?>
 
     </div>
     <!-- GOOGLE MAP AREA END -->

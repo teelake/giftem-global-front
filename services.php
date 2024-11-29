@@ -1,3 +1,14 @@
+
+<?php
+require_once "backend/includes/dashboard.php";
+
+$dashboard = new Dashboard();
+
+$generalInfo = $dashboard->getGeneralInfo(); // Fetch the current data
+
+$servicesInfo = $dashboard->getServicesInfo(); // Fetch the current data
+
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -80,13 +91,11 @@
                         <i class="fa fa-building"></i>
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="#">Exclusive Estates Development
+                            <h3><a href="#"><?php echo htmlspecialchars($servicesInfo['title1']);?>
                            </a></h3>
                             <p>
 
-                            We design and develop secure, well-planned estates with a focus on privacy, convenience,
-                             and a sense of community. Our gated estates offer peace of mind with controlled access
-                              and modern amenities, ensuring a high standard of living.
+                            <?php echo htmlspecialchars($servicesInfo['description1']);?>
                             </p>
                             <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a> -->
                         </div>
@@ -99,14 +108,11 @@
                         </div>
                         <div class="ltn__feature-info">
                             <h3><a href="#">
-                            Personalized Property Consultation
+                            <?php echo htmlspecialchars($servicesInfo['title2']);?>
                            
                             </a></h3>
                             <p>
-                            Navigating real estate doesn’t have to be complicated. 
-                            Our team provides personalized guidance to help you make 
-                            informed decisions when buying, selling,
-                             or investing, so you can grow your assets with confidence.
+                            <?php echo htmlspecialchars($servicesInfo['description2']);?>
 
                             </p>
                             <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a> -->
@@ -119,14 +125,9 @@
                         <i class="fa fa-chart-line"></i>
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="#">Investment Opportunities</a></h3>
+                            <h3><a href="#"><?php echo htmlspecialchars($servicesInfo['title3']);?></a></h3>
                               <p>
-                              We bring you promising investment opportunities,
-                               ensuring that each property offers high potential
-                                returns and long-term value. At Giftem,
-                                 we believe in helping you secure assets that
-                                  will appreciate and benefit you for years to come.
-                         
+                              <?php echo htmlspecialchars($servicesInfo['description3']);?>
 
                               </p>
                             <!-- <a class="ltn__service-btn" href="#">Find A Home <i class="flaticon-right-arrow"></i></a> -->
@@ -140,12 +141,9 @@
                         <i class="fa fa-shield-alt"></i>
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="#">Secured Land Titles</a></h3>
+                            <h3><a href="#"><?php echo htmlspecialchars($servicesInfo['title4']);?></a></h3>
                             <p>
-                            We take pride in offering only genuine properties with verified titles,
-                             protecting your investments every step of the way.
-                              With Giftem, your land ownership is transparent and
-                               legally sound.</a></h3>
+                            <?php echo htmlspecialchars($servicesInfo['description4']);?></a></h3>
                            
 
                             </p>
