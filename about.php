@@ -192,7 +192,7 @@ $teamInfo = $dashboard->getTeamInfo(); // Fetch the current data
 
     <!-- TEAM AREA START (Team - 3) -->
     <div class="ltn__team-area pt-115 pb-90">
-        < class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2--- text-center">
@@ -253,20 +253,7 @@ $teamInfo = $dashboard->getTeamInfo(); // Fetch the current data
           
                 
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
-                            <img src="img/team/<?php echo $teamInfo['photo4'];?>">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="#"><?php echo $teamInfo['name4'];?></a></h4>
-                            <h6 class="ltn__secondary-color"><?php echo $teamInfo['role4'];?></h6>
-                            
-                        </div>
-                    </div>
-                </div>
-
-
+              
                 
                
             </div>
