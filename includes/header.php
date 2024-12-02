@@ -29,7 +29,7 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <li class=""><a href="#">Home</a>
+                                        <li class=""><a href="/">Home</a>
                                             
                                         </li>
                                         <li class=""><a href="about.php">About</a>

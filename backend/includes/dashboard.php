@@ -80,6 +80,14 @@ public function getUsers()
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
+public function getMessages()
+{
+    $query = "SELECT * FROM contact_submissions ORDER BY id DESC LIMIT 5";
+    $stmt = $this->db->prepare($query);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
 public function changePassword($userId, $currentPassword, $newPassword)
 {
     // Fetch the current password hash for the user
@@ -859,7 +867,7 @@ public function updateSlidingImage($id, $data)
 
     public function getTestimonialsInfo() {
         try {
-            $query = "SELECT * FROM testimoniAls WHERE id = 1"; // Assuming a single row exists
+            $query = "SELECT * FROM testimonials WHERE id = 1"; // Assuming a single row exists
             $stmt = $this->db->prepare($query);
             $stmt->execute();
     

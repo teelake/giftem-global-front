@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['update_profile'])) {
 }
 
 // Fetch all sliding images
-$users = $dashboard->getUsers();
+$users = $dashboard->getMessages();
 
 ?>
 
@@ -143,7 +143,7 @@ $users = $dashboard->getUsers();
                   <div class="card">
                     
                   <div class="card">
-                <h5 class="card-header">New Contact Messages</h5>
+                <h5 class="card-header">New Messages</h5>
                 <div class="card-body">
                   <div class="table-responsive text-nowrap">
                     
@@ -151,10 +151,12 @@ $users = $dashboard->getUsers();
                       <thead>
                         <tr>
                         <th>SN</th>
-                          <th>First Name</th>
-                          <th>Last Name</th>
+                          <th>Name</th>
                           <th>Email </th>
-                          <th>Role</th>
+                          <th>Phone</th>
+                          <th>Service Type</th>
+                          <th>Message</th>
+                           <th>Date</th>
                           
                         </tr>
                       </thead>
@@ -163,10 +165,12 @@ $users = $dashboard->getUsers();
                         <?php foreach ($users as $index => $user): ?>
                         <tr>
                         <td><?php echo $index + 1; ?></td>
-                             <td ><?php echo nl2br($user['first_name']); ?></td>
-                            <td ><?php echo nl2br($user['last_name']); ?></td>
-                            <td><?php echo nl2br($user['email']); ?></td>
-                            <td><?php echo nl2br($user['role']); ?></td>
+                             <td ><?php echo nl2br($user['name']); ?></td>
+                            <td ><?php echo nl2br($user['email']); ?></td>
+                            <td><?php echo nl2br($user['phone']); ?></td>
+                            <td><?php echo nl2br($user['service_type']); ?></td>
+                            <td><?php echo nl2br($user['message']); ?></td>
+                            <td><?php echo nl2br($user['created_at']); ?></td>
                            
                         </tr>
                     <?php endforeach; ?>
