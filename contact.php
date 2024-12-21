@@ -2,6 +2,11 @@
 session_start(); // Start the session for CSRF token management and error handling.
 require_once "backend/includes/dashboard.php";
 
+// Generate CSRF token if not already set
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+
 $dashboard = new Dashboard();
 $generalInfo = $dashboard->getGeneralInfo(); // Fetch the current data
 
@@ -21,8 +26,8 @@ if (isset($_SESSION['errorMessage'])) {
     unset($_SESSION['errorMessage']);
 }
 
-// Generate a new CSRF token
-$_SESSION['token'] = bin2hex(random_bytes(32));
+
+
 
 
 ?>
@@ -168,7 +173,9 @@ $_SESSION['token'] = bin2hex(random_bytes(32));
     <div class="input-item input-item-textarea ltn__custom-icon">
         <textarea name="message" placeholder="Enter message" required></textarea>
     </div>
-    <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
+ 
+    <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+
     <div class="btn-wrapper mt-0">
         <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Send</button>
     </div>

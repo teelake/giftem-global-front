@@ -63,6 +63,32 @@ class Dashboard {
         ':button_name' => $data['button_name']
     ]);
 }
+
+public function newProperty($data)
+{
+    $query = "INSERT INTO property_page (propertyName, location, description, description2, facility1, facility2, facility3,
+    facility4, facility5, facility6, facility7) 
+              VALUES (:propertyName, :location, :description, :description2, :facility1, :facility2, :facility3, :facility4,
+              :facility5, :facility6, :facility7)"
+              
+              ;
+    $stmt = $this->db->prepare($query);
+
+    return $stmt->execute([
+        ':propertyName' => $data['propertyName'],
+        ':location' => $data['location'],
+        ':description' => $data['description'],
+        ':description2' => $data['description2'],
+        ':facility1' => $data['facility1'],
+        ':facility2' => $data['facility2'],
+        ':facility3' => $data['facility3'],
+        ':facility4' => $data['facility4'],
+        ':facility5' => $data['facility5'],
+        ':facility6' => $data['facility6'],
+        ':facility7' => $data['facility7']
+
+    ]);
+}
 public function getSlidingImages()
 {
     $query = "SELECT * FROM sliding_images ORDER BY id DESC";
@@ -70,6 +96,16 @@ public function getSlidingImages()
     $stmt->execute();
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
+
+public function getPropertyPages()
+{
+    $query = "SELECT * FROM property_page ORDER BY id DESC";
+    $stmt = $this->db->prepare($query);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+
 
 
 public function getUsers()
@@ -155,6 +191,35 @@ public function getSlidingImageById($id)
 }
 
 
+public function getPropertyById($id)
+{
+    // Ensure the ID is sanitized
+    $id = intval($id);
+
+    // Database connection
+
+
+    try {
+        // Prepare the SQL query
+        $query = "SELECT * FROM property_page WHERE id = :id LIMIT 1";
+        $stmt = $this->db->prepare($query);
+
+        // Bind parameters
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+
+        // Execute the query
+        $stmt->execute();
+
+        // Fetch and return the record as an associative array
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    } catch (PDOException $e) {
+        // Log or handle the error as needed
+        error_log("Error fetching Property by ID: " . $e->getMessage());
+        return false;
+    }
+}
+
+
 public function updateSlidingImage($id, $data)
 {
     $query = "UPDATE sliding_images SET 
@@ -171,6 +236,41 @@ public function updateSlidingImage($id, $data)
     $stmt->bindParam(':main_text', $data['main_text'], PDO::PARAM_STR);
     $stmt->bindParam(':sub_text', $data['sub_text'], PDO::PARAM_STR);
     $stmt->bindParam(':button_name', $data['button_name'], PDO::PARAM_STR);
+    return $stmt->execute();
+}
+
+
+
+public function updateProperty($id, $data)
+{
+    $query = "UPDATE property_page SET 
+                propertyName = :propertyName,
+                location = :location,
+                description = :description,
+                description2 = :description2,
+                facility1 = :facility1,
+                facility2 = :facility2,
+                facility3 = :facility3,
+                facility4 = :facility4,
+                facility5 = :facility5,
+                facility6 = :facility6,
+                facility7 = :facility7
+                
+              WHERE id = :id";
+    $stmt = $this->db->prepare($query);
+    $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+    $stmt->bindParam(':propertyName', $data['propertyName'], PDO::PARAM_STR);
+    $stmt->bindParam(':location', $data['location'], PDO::PARAM_STR);
+    $stmt->bindParam(':description', $data['description'], PDO::PARAM_STR);
+    $stmt->bindParam(':description2', $data['description2'], PDO::PARAM_STR);
+    $stmt->bindParam(':facility1', $data['facility1'], PDO::PARAM_STR);
+    $stmt->bindParam(':facility2', $data['facility2'], PDO::PARAM_STR);
+    $stmt->bindParam(':facility3', $data['facility3'], PDO::PARAM_STR);
+    $stmt->bindParam(':facility4', $data['facility4'], PDO::PARAM_STR);
+    $stmt->bindParam(':facility5', $data['facility5'], PDO::PARAM_STR);
+    $stmt->bindParam(':facility6', $data['facility6'], PDO::PARAM_STR);
+    $stmt->bindParam(':facility7', $data['facility7'], PDO::PARAM_STR);
+
     return $stmt->execute();
 }
 
@@ -788,6 +888,8 @@ public function updateSlidingImage($id, $data)
                 return "Error: " . $e->getMessage(); // For debugging, you may log this error
             }
         }
+
+        
     
     public function getAboutInfo() {
         try {
@@ -919,6 +1021,33 @@ public function updateSlidingImage($id, $data)
         }
     }
 
+
+    public function getPropertyTemplateInfo($propertyName) {
+        try {
+            // Prepare the SQL query
+            $sql = "SELECT * FROM property_page WHERE propertyName = :propertyName";
+            $stmt = $this->db->prepare($sql);
+            
+            // Bind the parameter
+            $stmt->bindParam(':propertyName', $propertyName, PDO::PARAM_STR);
+            
+            // Execute the query
+            $stmt->execute();
+            
+            // Fetch the result
+            $result = $stmt->fetch(PDO::FETCH_ASSOC);
+            
+            if ($result) {
+                return $result; // Return the result if data is found
+            } else {
+                return []; // Return empty array if no data is found
+            }
+        } catch (PDOException $e) {
+            // Return an error message or log it
+            return "Error: " . $e->getMessage();
+        }
+    }
+    
 
     public function getSocialInfo() {
         try {

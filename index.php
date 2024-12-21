@@ -448,63 +448,67 @@ $slidingImages = $dashboard->getSlidingImages();
                 </div>
             </div>
             <div class="row ltn__search-by-place-slider-1-active slick-arrow-1">
-                <div class="col-lg-4">
-                    <div class="ltn__search-by-place-item">
-                        <div class="search-by-place-img">
-                            <a href="#"><img src="img/gallery/<?php echo $propertyInfo['photo1'];?>" alt="#"></a>
-                            <div class="search-by-place-badge">
-                                <ul>
-                                    <li></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="search-by-place-info">
-                            <h6><a href="#"><?php echo $propertyInfo['location1'];?></a></h6>
-                            <h4><a href="#"><?php echo $propertyInfo['property1'];?></a></h4>
-                            <div class="search-by-place-btn">
-                               
-                            </div>
-                        </div>
-                    </div>
+                
+                <?php if (!empty($propertyInfo['photo1']) && !empty($propertyInfo['property1']) && !empty($propertyInfo['location1'])): ?>
+    <div class="col-lg-4">
+        <div class="ltn__search-by-place-item">
+            <div class="search-by-place-img">
+                <a href="#"><img src="img/gallery/<?php echo htmlspecialchars($propertyInfo['photo1']); ?>" alt="#"></a>
+                <div class="search-by-place-badge">
+                    <ul>
+                        <li></li>
+                    </ul>
                 </div>
-                <div class="col-lg-4">
-                    <div class="ltn__search-by-place-item">
-                        <div class="search-by-place-img">
-                            <a href="#"><img src="img/gallery/<?php echo $propertyInfo['photo2'];?>" alt="#"></a>
-                            <div class="search-by-place-badge">
-                                <ul>
-                                    <li></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="search-by-place-info">
-                        <h6><a href="#"><?php echo $propertyInfo['location2'];?></a></h6>
-                        <h4><a href="#"><?php echo $propertyInfo['property2'];?></a></h4>
-                            <div class="search-by-place-btn">
-                                
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div class="search-by-place-info">
+                <h6><a href="#"><?php echo htmlspecialchars($propertyInfo['location1']); ?></a></h6>
+                <h4><a href="#"><?php echo htmlspecialchars($propertyInfo['property1']); ?></a></h4>
+                <div class="search-by-place-btn"></div>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>
+
+<?php if (!empty($propertyInfo['photo2']) && !empty($propertyInfo['property2']) && !empty($propertyInfo['location2'])): ?>
+    <div class="col-lg-4">
+        <div class="ltn__search-by-place-item">
+            <div class="search-by-place-img">
+                <a href="#"><img src="img/gallery/<?php echo htmlspecialchars($propertyInfo['photo2']); ?>" alt="#"></a>
+                <div class="search-by-place-badge">
+                    <ul>
+                        <li></li>
+                    </ul>
                 </div>
-                <div class="col-lg-4">
-                    <div class="ltn__search-by-place-item">
-                        <div class="search-by-place-img">
-                            <a href="#"><img src="img/gallery/<?php echo $propertyInfo['photo3'];?>" alt="#"></a>
-                            <div class="search-by-place-badge">
-                                <ul>
-                                    <li></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="search-by-place-info">
-                        <h6><a href="#"><?php echo $propertyInfo['location3'];?></a></h6>
-                        <h4><a href="#"><?php echo $propertyInfo['property3'];?></a></h4>
-                            <div class="search-by-place-btn">
-                               
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div class="search-by-place-info">
+                <h6><a href="#"><?php echo htmlspecialchars($propertyInfo['location2']); ?></a></h6>
+                <h4><a href="#"><?php echo htmlspecialchars($propertyInfo['property2']); ?></a></h4>
+                <div class="search-by-place-btn"></div>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>
+
+<?php if (!empty($propertyInfo['photo3']) && !empty($propertyInfo['property3']) && !empty($propertyInfo['location3'])): ?>
+    <div class="col-lg-4">
+        <div class="ltn__search-by-place-item">
+            <div class="search-by-place-img">
+                <a href="#"><img src="img/gallery/<?php echo htmlspecialchars($propertyInfo['photo3']); ?>" alt="#"></a>
+                <div class="search-by-place-badge">
+                    <ul>
+                        <li></li>
+                    </ul>
                 </div>
+            </div>
+            <div class="search-by-place-info">
+                <h6><a href="#"><?php echo htmlspecialchars($propertyInfo['location3']); ?></a></h6>
+                <h4><a href="#"><?php echo htmlspecialchars($propertyInfo['property3']); ?></a></h4>
+                <div class="search-by-place-btn"></div>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>
+
                 
                 </div>
                 <!--  -->
@@ -541,11 +545,8 @@ $slidingImages = $dashboard->getSlidingImages();
                                     <div class="ltn__testimoni-img">
                                         <img src="img/testimonial/female-avatar.webp" alt="#">
                                     </div>
-                                    <div class="ltn__testimoni-name-designation">
-                                        <h5><?php echo $testimonialsInfo['name1'];?>
-</h5>
-                                        <label></label>
-                                    </div>
+                                   <h5><?php echo htmlspecialchars($testimonialsInfo['name1'] ?? 'No Name Provided'); ?></h5>
+
                                 </div>
                                 <div class="ltn__testimoni-rating">
                                     <div class="product-ratting">
@@ -560,7 +561,7 @@ $slidingImages = $dashboard->getSlidingImages();
                                 </div>
                             </div>
                             <p> 
-                            <?php echo $testimonialsInfo['details1'];?></p>
+                           <?php echo htmlspecialchars($testimonialsInfo['details1'] ?? 'No Name Provided'); ?></p>
                         </div>
                     </div>
                 </div>

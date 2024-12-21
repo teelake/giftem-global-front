@@ -45,6 +45,9 @@
                                         <li class=""><a href="https://giftemglobals.com/blog">Blog</a>
                                             
                                         </li>
+                                        <li class=""><a href="faqs.php">FAQs</a>
+                                            
+                                        </li>
                                        
                                         <li class="special-link"><a href="contact.php">Contact</a></li>
                                        
@@ -104,6 +107,10 @@
                         
                      </li>
                     <li><a href="https://giftemglobals.com/blog">Blog</a>
+                       
+                    </li>
+                    
+                      <li><a href="faqs.php">FAQs</a>
                        
                     </li>
                    

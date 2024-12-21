@@ -127,6 +127,20 @@
                 <div data-i18n="Form Elements">Property</div>
               </a>
             </li>
+
+            <li class="menu-item">
+              <a href="new_property.php" class="menu-link">
+              
+                <div data-i18n="Form Elements"> New Property Page</div>
+              </a>
+            </li>
+
+            <li class="menu-item">
+              <a href="view_pages.php" class="menu-link">
+              
+                <div data-i18n="Form Elements"> View Property Pages</div>
+              </a>
+            </li>
                
                 </li>
                 

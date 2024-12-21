@@ -139,7 +139,7 @@
                     </div>
                     <div class="col-md-2 col-12 align-self-center">
                         
-                <a href="https://wa.me/2347066246499" target="_blank">
+                <a href="https://wa.me/2348023510670" target="_blank">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                   class="whatsapp-button whatsapp-button-sm whatsapp-button-md img-fluid" alt="WhatsApp">
                 </a>
@@ -152,4 +152,18 @@
             </div>
         </div>
     </footer>
+    
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/674d5d542480f5b4f5a69532/1ie3395ck';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     <!-- FOOTER AREA END -->
